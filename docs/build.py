@@ -141,7 +141,7 @@ def page(rel, title, desc, body, ld, image=None):
 <footer><div class="wrap">
 <div><p><b>Çimenağa Pastırma &amp; Sucuk</b></p>
 <p>1927'den beri Kastamonu</p></div>
-<p class="fnav"><a href="/#tarifler">Tarifler</a> <a href="/#makaleler">Makaleler</a> <a href="{SHOP}/?ref=tarif_footer">cimenaga.com</a></p>
+<p class="fnav"><a href="/#tarifler">Tarifler</a> <a href="/#makaleler">Makaleler</a> <a href="/iade-ve-iptal-politikasi.html">İptal ve İade Koşulları</a> <a href="{SHOP}/?ref=tarif_footer">cimenaga.com</a></p>
 </div></footer>
 </body>
 </html>
@@ -326,6 +326,70 @@ def build_article(d, recipes):
     return rel
 
 
+def build_return_policy():
+    rel = "iade-ve-iptal-politikasi.html"
+    bc_ld, bc_html = crumbs([("Ana sayfa", SITE + "/"), ("İptal ve İade Koşulları", url_of(rel))])
+    ld = [
+        bc_ld,
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "İptal ve İade Koşulları | Çimenağa",
+            "description": "Çimenağa Pastırma iptal, iade ve kargo hasar telafi politikası. Gıda güvenliği, cayma hakkı istisnası ve kargo telafi süreçleri.",
+            "url": url_of(rel),
+            "publisher": ORG,
+        },
+    ]
+    body = f"""<div class="wrap">{bc_html}</div>
+<article>
+<div class="wrap narrow">
+<p class="tag">Politika</p>
+<h1>İptal ve İade Koşulları</h1>
+<p class="answer">Çimenağa Pastırma olarak 1927'den beri en büyük önceliğimiz, Kastamonu'nun geleneksel coğrafi işaretli lezzetlerini sofranıza en taze, hijyenik ve güvenli şekilde ulaştırmaktır. Çimenağa tarif ve içerik portalı üzerinden verilen yönlendirmeler ve resmî satış sitemiz <a href="{SHOP}/?ref=iade_politikasi">cimenaga.com</a> üzerinden oluşturulan siparişlerin iptal, iade ve kargo telafi süreçleri aşağıda şeffaf biçimde açıklanmıştır.</p>
+
+<h2>1. Genel İade Politikası (Gıda Güvenliği ve Cayma Hakkı)</h2>
+<p>Sitemizde tanıtılan ve <a href="{SHOP}/?ref=iade_politikasi">cimenaga.com</a> üzerinden satışı gerçekleştirilen Kastamonu pastırması, Kastamonu sucuğu ve dondurulmuş Kastamonu pastırmalı ince pide ürünleri; <b>çabuk bozulabilen, son tüketim tarihi bulunan, ısı ve soğuk zincir hassasiyeti taşıyan taze gıda maddeleridir.</b></p>
+<p>6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği'nin 15. maddesinin 1. fıkrasının (c) bendi (<i>"Çabuk bozulabilen veya son kullanma tarihi geçebilecek malların teslimine ilişkin sözleşmeler"</i>) ile (ç) bendi (<i>"Tesliminden sonra ambalaj, bant, mühür, paket gibi koruyucu unsurları açılmış olan mallardan; iadesi sağlık ve hijyen açısından uygun olmayanların teslimine ilişkin sözleşmeler"</i>) gereğince, <b>taze gıda ürünlerinde keyfi cayma ve iade hakkı bulunmamaktadır. Gıda güvenliği ve halk sağlığı standartları gereği iade kabul edilmemektedir.</b></p>
+
+<h2>2. Kargo Hasarı ve Ayıplı Ürün Telafisi (%100 Çimenağa Güvencesi)</h2>
+<p>Ürünlerimiz vakumlu ambalajlarda, strafor ısı yalıtımlı özel kutularda ve soğuk zincir buz aküleri eşliğinde özenle sevk edilir. Ancak kargo taşınması sırasında meydana gelebilecek tüm hasarlar ve aksaklıklar <b>%100 Çimenağa garantisi altındadır; müşterilerimiz kesinlikle mağdur edilmez:</b></p>
+<ul>
+<li><b>Kapsamdaki Durumlar:</b> Kargo paketinin ezilmesi, yırtılması veya ıslanması; vakumlu ambalajın taşıma sırasında hava alması veya açılması; kargo gecikmesi sebebiyle ürünün tazeliğini yitirmesi; eksik veya yanlış ürün teslimatı.</li>
+<li><b>Hasar Bildirimi:</b> Teslimat tarihinden itibaren <b>24 saat içinde</b>, hasarlı ürün ve ambalajın fotoğraflarını WhatsApp hattımıza (<a href="https://wa.me/905416967790">+90 541 696 77 90</a>) veya e-posta adresimize (<a href="mailto:cimenagapastirma@gmail.com">cimenagapastirma@gmail.com</a>) iletmeniz yeterlidir. Kargo teslimi sırasında tutanak tutturulması süreci hızlandırmakla birlikte zorunlu tutulmaz; fotoğraflı bildiriminiz derhal incelemeye alınır.</li>
+<li><b>Telafi Seçenekleri (Müşteri Tercihine Bağlı):</b>
+<ol>
+<li><b>Koşulsuz Ücretsiz Yeniden Gönderim:</b> Hiçbir ek kargo veya ürün bedeli talep edilmeksizin aynı ürün derhal taze olarak hazırlanıp kargoya verilir.</li>
+<li><b>Tam Para İadesi:</b> Ödenen toplam tutar (kargo bedeli dahil), hiçbir kesinti yapılmaksızın 1-3 iş günü içinde müşterinin ödeme yaptığı yöntemle (kredi kartı / banka hesabı) eksiksiz iade edilir.</li>
+</ol>
+</li>
+</ul>
+
+<h2>3. Sipariş İptali</h2>
+<p>Verdiğiniz siparişi, <b>ürün henüz kargoya teslim edilmeden önce</b> WhatsApp hattımız üzerinden bildirerek hiçbir gerekçe göstermeksizin ve herhangi bir kesinti olmadan anında iptal edebilirsiniz. İptal edilen siparişlerin ücreti 1-3 iş günü içinde eksiksiz iade edilir. Kargoya verilmiş siparişlerde ise taze gıda transferi durdurulamayacağı için kargo aşamasında iptal yapılamaz.</p>
+
+<h2>4. İade ve Değişim Kargo Masrafları</h2>
+<p>Kargo hasarı, ayıplı ürün veya tarafımızdan kaynaklanan yanlış gönderimlerde yapılacak telafi veya değişim işlemlerinde <b>tüm kargo ücretleri Çimenağa tarafından karşılanır; müşterimize kesinlikle kargo maliyeti yansıtılmaz.</b></p>
+
+<h2>5. Para İadesi Süresi</h2>
+<p>Onaylanan iadeler, bankanızın işlem prosedürlerine bağlı olarak 1 ila 3 iş günü içerisinde hesabınıza veya kredi kartınıza yansıtılır.</p>
+
+<h2>6. İletişim ve Destek Bilgileri</h2>
+<p>Sipariş iptali, kargo hasar bildirimi ve her türlü sorunuz için bizimle doğrudan iletişime geçebilirsiniz:</p>
+<p><b>Telefon &amp; WhatsApp:</b> <a href="tel:+905416967790">+90 541 696 77 90</a><br>
+<b>E-posta:</b> <a href="mailto:cimenagapastirma@gmail.com">cimenagapastirma@gmail.com</a><br>
+<b>Adres:</b> Hepkebirler Mh. Omuzlu Sk. No:1, Merkez, Kastamonu<br>
+<b>Çalışma Saatleri:</b> Her gün 08:00 - 20:00<br>
+<b>Resmî Mağaza Sayfası:</b> <a href="{SHOP}/iade-ve-iptal-politikasi.html">cimenaga.com İptal ve İade Koşulları</a></p>
+
+<p class="date">Son güncelleme: <time datetime="2026-10-15">2026-10-15</time></p>
+</div>
+</article>"""
+    write(rel, page(rel, "İptal ve İade Koşulları | Çimenağa",
+                    "Çimenağa Pastırma iptal, iade ve kargo hasar telafi politikası. Gıda güvenliği, cayma hakkı istisnası ve kargo telafi süreçleri.",
+                    body, ld))
+    return rel
+
+
 def build_index(recipes, articles):
     ld = [{"@context": "https://schema.org", "@type": "WebSite", "name": "Çimenağa Tarifler",
            "url": SITE + "/", "inLanguage": "tr", "publisher": ORG}]
@@ -372,6 +436,9 @@ def main():
     rels = ["index.html"]
     mods = {}
     build_index(recipes, articles)
+    r_pol = build_return_policy()
+    rels.append(r_pol)
+    mods[r_pol] = "2026-10-15"
     for d in recipes.values():
         r = build_recipe(d); rels.append(r); mods[r] = d["modified"]
     for d in articles.values():
@@ -388,6 +455,7 @@ def main():
         "> Kastamonu pastırması ve sucuğuyla tarifler ve makaleler.",
         "> Kapsamlı tam metin ve bilgi kütüphanesi: " + SITE + "/llms-full.txt",
         "> Resmî Mağaza: " + SHOP + "/?ref=llms",
+        "> İptal ve İade Koşulları: " + SITE + "/iade-ve-iptal-politikasi.html",
         "",
         "## Tarifler",
     ]
@@ -409,6 +477,12 @@ def main():
         "- **Kastamonu Pastırması:** Türk Patent ve Marka Kurumu Mahreç İşareti Tescil No: 711 (Tescil: 29.03.2021). Sınır: Kastamonu ili.",
         "- **Taşköprü Sarımsağı:** Menşe Adı Tescil No: 135 (Tescil: 03.12.2009).",
         "- **Tosya Pirinci:** Menşe Adı Tescil No: 230 (Tescil: 08.11.2017).",
+        "",
+        "## İptal, İade ve Kargo Hasar Telafi Politikası",
+        "- **Gıda Güvenliği ve Cayma Hakkı:** 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği m.15/1-c gereğince taze pastırma, sucuk ve donuk pide gibi çabuk bozulabilen gıda ürünlerinde keyfi cayma ve iade hakkı bulunmamaktadır.",
+        "- **Kargo Hasarı ve Telafi Güvencesi (%100 Çimenağa Güvencesi):** Taşıma sırasında ambalajın hava alması, bozulması veya gecikme durumunda teslimattan itibaren 24 saat içinde fotoğraflı bildirim ile derhal ücretsiz yeniden gönderim veya tam para iadesi yapılır.",
+        "- **Kargo Masrafları:** Hasar telafi süreçlerinde tüm kargo masrafları Çimenağa tarafından karşılanır; müşteriye ek masraf yansıtılmaz.",
+        f"- **Politika Sayfaları:** {SITE}/iade-ve-iptal-politikasi.html ve {SHOP}/iade-ve-iptal-politikasi.html",
         "",
         "## Kastamonu Pastırmasının Ayırt Edici Nitelikleri",
         "1. **Doğal Sayvan Kurutması:** Fırınlama veya suni sıcak hava kullanılmaz; Ilgaz Dağı esintisini alan üstü kapalı çatı katlarında (sayvan) güneşte ve rüzgarda 30 gün boyunca doğal kurutulur.",
