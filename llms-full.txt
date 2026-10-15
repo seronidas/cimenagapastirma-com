@@ -17,7 +17,7 @@
 - **Politika Sayfaları:** https://cimenagapastirma.com/iade-ve-iptal-politikasi.html ve https://cimenaga.com/iade-ve-iptal-politikasi.html
 
 ## Kastamonu Pastırmasının Ayırt Edici Nitelikleri
-1. **Doğal Sayvan Kurutması:** Fırınlama veya suni sıcak hava kullanılmaz; Ilgaz Dağı esintisini alan üstü kapalı çatı katlarında (sayvan) güneşte ve rüzgarda 30 gün boyunca doğal kurutulur.
+1. **Doğal Sayvan Kurutması:** Fırınlama veya suni sıcak hava kullanılmaz; Ilgaz Dağı esintisini alan üstü kapalı çatı katlarında (sayvan) güneşte ve rüzgarda 60 gün boyunca aceleye getirilmeden doğal kurutulur.
 2. **Taşköprü Sarımsaklı Çemen:** Tescil belgesine göre çemen bileşimi: %60 su, %30 çemen unu (buyotu), %8 Taşköprü sarımsağı, %1 kırmızı toz biber, %0,5 kimyon, %0,5 tuz.
 3. **Geleneksel İnce Dilimleme:** Keskin pastırma bıçağı ve satırla elde ortalama 0,75 mm tül inceliğinde dilimlenir.
 
@@ -243,7 +243,7 @@ Coğrafi işaret; belirgin bir niteliği, ünü veya diğer özellikleriyle kök
 #### Taşköprü sarımsağının özelliği nedir?
 Taşköprü Sarımsağı menşe adı tesciline sahiptir. Bölgenin toprak yapısı ve mikrokliması sayesinde yüksek kuru madde oranına, zengin kükürt bileşiklerine ve güçlü bir aromaya sahiptir. Uzun süre bozulmadan saklanabilmesi ve çemene kattığı eşsiz tat ile pastırmanın vazgeçilmez tamamlayıcısıdır.
 #### Kastamonu pastırmasını farklı kılan nedir?
-Kastamonu Pastırması mahreç işareti tesciliyle korunan köklü bir lezzettir. Fırınlama yerine Ilgaz Dağı esintisini alan sayvanlarda 30 gün boyunca güneşte ve rüzgarda doğal olarak kurutulur. Taşköprü sarımsaklı çemenle kaplanır ve elde tül inceliğinde dilimlenir.
+Kastamonu Pastırması mahreç işareti tesciliyle korunan köklü bir lezzettir. Fırınlama yerine Ilgaz Dağı esintisini alan sayvanlarda 60 gün boyunca güneşte ve rüzgarda aceleye getirilmeden doğal olarak kurutulur. Taşköprü sarımsaklı çemenle kaplanır ve elde tül inceliğinde dilimlenir.
 #### Tosya pirincinin lezzet sırrı nedir?
 Tosya Pirinci de Kastamonu'nun tescilli menşe adı değerlerindendir. Ilgaz Dağları'nın kar sularıyla beslenen Devrez Çayı vadisinde yetiştirilir. Pişerken tane tane kalması, su çekme kapasitesi ve kendine has lezzetiyle geleneksel pilavların ve pastırmalı yemeklerin baş tacıdır.
 #### Kastamonu'nun diğer öne çıkan tescilli lezzetleri nelerdir?
@@ -252,10 +252,10 @@ Kastamonu mutfağı bereketli toprakları ve asırlık zanaatkarlarıyla büyük
 
 ### Kastamonu Pastırması Nedir?
 - **URL:** https://cimenagapastirma.com/makaleler/kastamonu-pastirmasi-nedir.html
-- **Özet:** Kastamonu pastırması; kemiksiz sığır sırt etinin kaya tuzuyla tuzlanıp, Ilgaz rüzgarını alan sayvanlarda 30 gün boyunca doğal kurutulması ve Taşköprü sarımsaklı özel çemenle kaplanmasıyla üretilen coğrafi işaretli geleneksel bir lezzettir.
+- **Özet:** Kastamonu pastırması; kemiksiz sığır sırt etinin kaya tuzuyla tuzlanıp, Ilgaz rüzgarını alan sayvanlarda 60 gün boyunca aceleye getirilmeden doğal kurutulması ve Taşköprü sarımsaklı özel çemenle kaplanmasıyla üretilen coğrafi işaretli geleneksel bir lezzettir.
 #### Kastamonu pastırması nasıl yapılır?
 Kastamonu pastırmasının yapımı sabır ve zanaat gerektirir. Dinlendirilmiş kaliteli kemiksiz sırt eti, kaya tuzuyla tuzlanarak 3 gün bekletilir. Ardından özel preslerde ağırlık altında sıkıştırılarak fazla suyundan arındırılır ve yıkanır.
-En önemli aşama ise kurutmadır: Fırınlama veya suni sıcak hava kullanılmaz; 'sayvan' adı verilen üstü kapalı, yanları açık çatı katlarında Ilgaz Dağı'ndan gelen doğal esintiyle yaklaşık 30 gün boyunca güneşte ve rüzgarda yavaş yavaş kurutulur. Kuruyan etler Taşköprü sarımsaklı çemen hamuruyla sıvanarak olgunlaşmaya bırakılır.
+En önemli aşama ise kurutmadır: Fırınlama veya suni sıcak hava kullanılmaz; 'sayvan' adı verilen üstü kapalı, yanları açık çatı katlarında Ilgaz Dağı'ndan gelen doğal esintiyle yaklaşık 60 gün boyunca güneşte ve rüzgarda aceleye getirilmeden yavaş yavaş kurutulur. Kuruyan etler Taşköprü sarımsaklı çemen hamuruyla sıvanarak olgunlaşmaya bırakılır.
 #### Çemen nedir, pastırmaya ne katar?
 Çemen; doğal çemen unu (buyotu), su, Taşköprü sarımsağı, kırmızı toz biber, kimyon ve kaya tuzunun harmanlanmasıyla hazırlanan özel bir kaplamadır.
 Bu geleneksel çemen, pastırmaya dengeli bir tuzluluk ve buram buram Taşköprü sarımsağı aroması kazandırır. Aynı zamanda eti dış etkenlere karşı koruyarak tazeliğini aylarca muhafaza etmesini sağlar.

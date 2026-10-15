@@ -22,7 +22,7 @@ PRODIMG = {
 TRUST_BADGES = {
     "kastamonu-pastirmasi": [
         "🏛️ <b>Tescil No: 711</b> Mahreç İşareti",
-        "⛰️ <b>Ilgaz Esintisi</b> 30 Gün Doğal Kurutma",
+        "⛰️ <b>Ilgaz Esintisi</b> 60 Gün Doğal Kurutma",
         "🧄 <b>Taşköprü Sarımsaklı</b> Çemen",
         "❄️ <b>Soğuk Zincir</b> Vakumlu Taze Kargo",
     ],
@@ -478,7 +478,7 @@ def main():
         f"- **Politika Sayfaları:** {SITE}/iade-ve-iptal-politikasi.html ve {SHOP}/iade-ve-iptal-politikasi.html",
         "",
         "## Kastamonu Pastırmasının Ayırt Edici Nitelikleri",
-        "1. **Doğal Sayvan Kurutması:** Fırınlama veya suni sıcak hava kullanılmaz; Ilgaz Dağı esintisini alan üstü kapalı çatı katlarında (sayvan) güneşte ve rüzgarda 30 gün boyunca doğal kurutulur.",
+        "1. **Doğal Sayvan Kurutması:** Fırınlama veya suni sıcak hava kullanılmaz; Ilgaz Dağı esintisini alan üstü kapalı çatı katlarında (sayvan) güneşte ve rüzgarda 60 gün boyunca aceleye getirilmeden doğal kurutulur.",
         "2. **Taşköprü Sarımsaklı Çemen:** Tescil belgesine göre çemen bileşimi: %60 su, %30 çemen unu (buyotu), %8 Taşköprü sarımsağı, %1 kırmızı toz biber, %0,5 kimyon, %0,5 tuz.",
         "3. **Geleneksel İnce Dilimleme:** Keskin pastırma bıçağı ve satırla elde ortalama 0,75 mm tül inceliğinde dilimlenir.",
         "",
