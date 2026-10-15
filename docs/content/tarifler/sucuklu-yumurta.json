@@ -1,0 +1,36 @@
+{
+  "slug": "sucuklu-yumurta",
+  "title": "Sucuklu Yumurta",
+  "description": "İnce dilimlenmiş sucuğu tavada pişirip üzerine yumurta kırarak hazırlanan, 10 dakikada biten 2 kişilik tarif.",
+  "answer": "Sucuklu yumurta 2 kişilik olarak toplam 10 dakikada hazırlanır: 5 dakika hazırlık, 5 dakika pişirme. 100 gram sucuk ince dilimlenip orta ateşte renk alana kadar pişirilir, yumurtalar bütün olarak kırılıp akları beyazlaşana kadar kısık ateşte pişirilir.",
+  "prep_min": 5,
+  "cook_min": 5,
+  "yield": "2 kişilik",
+  "ingredients": [
+    "100 g sucuk",
+    "2 adet yumurta",
+    "1/2 yemek kaşığı tereyağı (isteğe bağlı)",
+    "1/4 çay kaşığı tuz"
+  ],
+  "steps": [
+    "Sucuğu ince ince dilimleyin.",
+    "Tavada isterseniz tereyağını eritin ve sucuk dilimlerini aralıklı dizin.",
+    "Sucukları orta ateşte, ara sıra çevirerek hafifçe renk alıp yağını salana kadar pişirin.",
+    "Yumurtaları sarıları dağılmayacak şekilde sucukların ortasına kırın.",
+    "Akları sucukların arasına yayıp kısık ateşte akı şeffaftan beyaza dönene kadar pişirin, tuzu serpip sıcak servis edin."
+  ],
+  "tips": [
+    "Teflon, seramik ya da granit tava kullanıyorsanız tereyağına gerek yoktur; kalaylı bakır sahanda yağ ekleyin.",
+    "Kızarmış ekmek ve kahvaltılıklarla servis edebilirsiniz."
+  ],
+  "products": [
+    "kastamonu-sucugu"
+  ],
+  "published": "2026-10-11",
+  "modified": "2026-10-11",
+  "category": "Kahvaltı",
+  "image": "sucuklu-yumurta.webp",
+  "image_alt": "Bakır sahanda tereyağında pişirilmiş baharatlı sucuk dilimleri ve göz yumurtalar",
+  "image_w": 1200,
+  "image_h": 896
+}

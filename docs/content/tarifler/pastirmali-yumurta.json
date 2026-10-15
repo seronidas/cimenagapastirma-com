@@ -1,0 +1,36 @@
+{
+  "slug": "pastirmali-yumurta",
+  "title": "Pastırmalı Yumurta",
+  "description": "Pastırmayı tereyağında çevirip üzerine yumurta kırarak hazırlanan, 15 dakikada biten 2 kişilik kahvaltı tarifi.",
+  "answer": "Pastırmalı yumurta 2 kişilik olarak toplam 15 dakikada hazırlanır: 5 dakika hazırlık, 10 dakika pişirme. Pastırma dilimleri ikiye bölünüp tereyağında iki yüzü de çevrilerek pişirilir, ardından üzerine yumurta kırılıp istenen kıvamda pişirilir.",
+  "prep_min": 5,
+  "cook_min": 10,
+  "yield": "2 kişilik",
+  "ingredients": [
+    "7-8 dilim pastırma",
+    "2 adet yumurta",
+    "1 yemek kaşığı tereyağı",
+    "tuz ve karabiber (damak tadına göre)"
+  ],
+  "steps": [
+    "Pastırma dilimlerini ikiye bölün.",
+    "Sahanda 1 yemek kaşığı tereyağını eritin.",
+    "Pastırmaları sahana alıp iki yüzünü de birkaç kez çevirerek pişirin.",
+    "Yumurtaları pastırmaların üzerine kırın ve istediğiniz kıvama gelene kadar pişirin.",
+    "İsterseniz tuz ve karabiber ekleyip sıcak servis edin."
+  ],
+  "tips": [
+    "Kastamonu pastırması orta tuzludur, sarımsağı belirgindir; bu yüzden tuzu en son tadarak ekleyin.",
+    "Pastırmayı tavaya koymadan önce kısa süre suda pişirmek daha yumuşak olmasını sağlar."
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-11",
+  "modified": "2026-10-11",
+  "category": "Kahvaltı",
+  "image": "pastirmali-yumurta.webp",
+  "image_alt": "Bakır sahanda tereyağında pişmiş, sarısı akışkan göz yumurtalar ve dilimlenmiş Kastamonu pastırması",
+  "image_w": 1200,
+  "image_h": 896
+}

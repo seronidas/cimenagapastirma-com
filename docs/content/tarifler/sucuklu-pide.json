@@ -1,0 +1,41 @@
+{
+  "slug": "sucuklu-pide",
+  "title": "Sucuklu Pide",
+  "description": "Kuru mayalı hamura kaşar ve sucuk koyarak 180 °C fırında pişirilen, 4 kişilik sucuklu pide tarifi.",
+  "answer": "Sucuklu pide 4 kişiliktir; 45 dakika hazırlık ve 30 dakika pişirme gerektirir. Mayalı hamur yoğrulup 30 dakika dinlendirilir, kaşarla doldurulan pideler 180 derece fırında 20 dakika pişirilir, sonra üzerine sucuk dizilip 10 dakika daha pişirilir.",
+  "prep_min": 45,
+  "cook_min": 30,
+  "yield": "4 kişilik",
+  "ingredients": [
+    "2 su bardağı ılık su",
+    "1 paket kuru maya",
+    "1 tatlı kaşığı şeker",
+    "1 tatlı kaşığı tuz",
+    "2 yemek kaşığı zeytinyağı",
+    "4 su bardağı un",
+    "200 g ince dilimlenmiş sucuk",
+    "120 g rendelenmiş kaşar"
+  ],
+  "steps": [
+    "Ilık suya şekeri ve kuru mayayı katıp karıştırın, mayanın harekete geçmesi için 5 dakika bekletin.",
+    "Zeytinyağını ve tuzu ekleyin.",
+    "Unu azar azar katarak yoğurun ve hamuru yaklaşık 30 dakika dinlendirin.",
+    "Hamuru pide biçiminde açın, ortasına kaşarı yayın ve kenarlarını üzerine kapatın.",
+    "Pideleri fırın kâğıdı serili tepsiye dizin ve 180 derecede 20 dakika pişirin.",
+    "Kaşar eriyince sucuk dilimlerini pidelerin üzerine yerleştirin ve 10 dakika daha pişirip servis edin."
+  ],
+  "tips": [
+    "Hamura fazla un katıp sertleştirmeyin; hafif elinize yapışan yumuşak kıvamda bırakın.",
+    "Pişmeye yakın tepsiyi biraz dışarı çekip pidelerin ortasına yumurta kırabilir, yumurta pişene kadar fırında bırakabilirsiniz."
+  ],
+  "products": [
+    "kastamonu-sucugu"
+  ],
+  "published": "2026-10-11",
+  "modified": "2026-10-11",
+  "image": "sucuklu-pide.webp",
+  "image_alt": "Taş fırında nar gibi kızarmış, bol kaşar peynirli ve dilim sucuklu kayık pide",
+  "image_w": 1200,
+  "image_h": 896,
+  "category": "Ana yemek"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "pastirmali-tost",
+  "title": "Pastırmalı Tost",
+  "description": "Pastırma ve kaşarı tost makinesinde pişirip tereyağıyla kızartan, 15 dakikada hazır 1 kişilik tost tarifi.",
+  "answer": "Pastırmalı tost 1 kişilik olup 5 dakika hazırlık ve 10 dakika pişirme ister. Pastırma önce tost ekmeğinin üzerinde yaklaşık 2 dakika ısıtılır, sonra kaşar eklenip ekmek kapatılır ve tost makinesinde peynir eriyene kadar pişirilir.",
+  "prep_min": 5,
+  "cook_min": 10,
+  "yield": "1 kişilik",
+  "ingredients": [
+    "2 adet tost ekmeği",
+    "5-6 parça pastırma",
+    "4-5 dilim kaşar peyniri",
+    "1 tatlı kaşığı tereyağı"
+  ],
+  "steps": [
+    "Bir tost ekmeğinin üzerine pastırma parçalarını dizin ve tost makinesinde yaklaşık 2 dakika ısıtın.",
+    "Pastırmanın üzerine kaşar dilimlerini yerleştirin, öteki ekmekle kapatın.",
+    "Tereyağını iki dış yüze toplam 1 tatlı kaşığı olacak şekilde sürüp tost makinesinde pişirin.",
+    "Peynir eriyince tostu çıkarıp çapraz kesin ve sıcak servis edin."
+  ],
+  "tips": [],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-11",
+  "modified": "2026-10-11",
+  "category": "Atıştırmalık",
+  "image": "pastirmali-tost.webp",
+  "image_alt": "Köy ekmeğinde tereyağlı ızgarada kızarmış, içi erimiş kaşar ve Kastamonu pastırmalı tost",
+  "image_w": 1200,
+  "image_h": 896
+}

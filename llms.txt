@@ -1,0 +1,21 @@
+# Çimenağa Tarifler
+
+> Kastamonu pastırması ve sucuğuyla tarifler ve makaleler.
+> Kapsamlı tam metin ve bilgi kütüphanesi: https://cimenagapastirma.com/llms-full.txt
+> Resmî Mağaza: https://cimenaga.com/?ref=llms
+
+## Tarifler
+- [Pastırmalı Paçanga Böreği (Fırında)](https://cimenagapastirma.com/tarifler/pastirmali-borek.html): Yufkayı dörde bölüp pastırma, domates, biber ve kaşarlı harçla saran, çıtır galeta unlu fırında 8 adetlik nefis paçanga böreği tarifi.
+- [Pastırmalı Kuru Fasulye](https://cimenagapastirma.com/tarifler/pastirmali-kuru-fasulye.html): Bir gece ıslatılan fasulyeyi pastırma, soğan ve salçayla kısık ateşte pişiren, 6 kişilik kuru fasulye tarifi.
+- [Pastırmalı Pide](https://cimenagapastirma.com/tarifler/pastirmali-pide.html): Mayalı hamuru ceviz büyüklüğünde parçalarla açıp pastırmalı yumurtalı harçla dolduran, 180 °C fırında pişen 6 kişilik pide tarifi.
+- [Pastırmalı Tost](https://cimenagapastirma.com/tarifler/pastirmali-tost.html): Pastırma ve kaşarı tost makinesinde pişirip tereyağıyla kızartan, 15 dakikada hazır 1 kişilik tost tarifi.
+- [Pastırmalı Yumurta](https://cimenagapastirma.com/tarifler/pastirmali-yumurta.html): Pastırmayı tereyağında çevirip üzerine yumurta kırarak hazırlanan, 15 dakikada biten 2 kişilik kahvaltı tarifi.
+- [Sucuklu Patates](https://cimenagapastirma.com/tarifler/sucuklu-patates.html): Küp doğranmış patatesi biberle kavurup sucuk ve kaşarla tamamlayan, 40 dakikada hazır 3 kişilik tava tarifi.
+- [Sucuklu Pide](https://cimenagapastirma.com/tarifler/sucuklu-pide.html): Kuru mayalı hamura kaşar ve sucuk koyarak 180 °C fırında pişirilen, 4 kişilik sucuklu pide tarifi.
+- [Sucuklu Yumurta](https://cimenagapastirma.com/tarifler/sucuklu-yumurta.html): İnce dilimlenmiş sucuğu tavada pişirip üzerine yumurta kırarak hazırlanan, 10 dakikada biten 2 kişilik tarif.
+
+## Makaleler
+- [Çemen ve Taşköprü Sarımsağı](https://cimenagapastirma.com/makaleler/cemen-ve-taskopru-sarimsagi.html): Kastamonu pastırmasını kaplayan çemenin içeriği ve Taşköprü sarımsağının coğrafi işaret kaydı, TürkPatent belgelerine göre.
+- [Kastamonu'nun Coğrafi İşaretli Lezzetleri](https://cimenagapastirma.com/makaleler/kastamonu-cografi-isaretli-lezzetleri.html): Kastamonu'nun coğrafi işaretli ürünlerinden Taşköprü sarımsağı, Kastamonu pastırması ve Tosya pirinci TürkPatent kayıtlarına göre.
+- [Kastamonu Pastırması Nedir?](https://cimenagapastirma.com/makaleler/kastamonu-pastirmasi-nedir.html): Kastamonu pastırmasının ne olduğu, nasıl yapıldığı ve mahreç işareti olarak tescili, TürkPatent belgesine göre anlatılıyor.
+- [Pastırma Nasıl Dilimlenir ve Saklanır?](https://cimenagapastirma.com/makaleler/pastirma-nasil-dilimlenir-ve-saklanir.html): Pastırmanın ince dilimlenmesi ve saklanması hakkında kaynağı belirtilen, sayısal süre içermeyen kısa notlar.

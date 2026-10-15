@@ -1,0 +1,56 @@
+{
+  "slug": "kastamonu-pastirmasi-nedir",
+  "title": "Kastamonu Pastırması Nedir?",
+  "description": "Kastamonu pastırmasının ne olduğu, nasıl yapıldığı ve mahreç işareti olarak tescili, TürkPatent belgesine göre anlatılıyor.",
+  "answer": "Kastamonu pastırması, kemiksiz sırt etinden yapılan, 2021'den beri mahreç işareti olarak tescilli (TürkPatent, tescil no 711) yöresel bir üründür. Et kaya tuzuyla tuzlanır, ağırlık altında sıkıştırılır, güneşte kurutulur ve Taşköprü sarımsaklı çemenle kaplanır.",
+  "sections": [
+    {
+      "h2": "Kastamonu pastırması nasıl yapılır?",
+      "paras": [
+        "Çimenağa'da kemiksiz sırt eti kaya tuzuyla tuzlanır, ağırlık altında sıkıştırılır, güneşte kurutulur ve Taşköprü sarımsaklı çemenle kaplanır. Üretim genellikle Eylül'den Nisan'a kadar sürer.",
+        "TürkPatent tescil belgesi aynı akışı daha ayrıntılı anlatır: derin kesikli kemiksiz sırt eti kaya tuzuyla tuzlanıp 3 gün bekletilir, ağırlıkla sıkıştırılır ve yıkanır. Ardından sayvan denilen üstü kapalı çatılarda güneşte 30 gün kurutulur ve çemenle kaplanır."
+      ]
+    },
+    {
+      "h2": "Çemen nedir, pastırmaya ne katar?",
+      "paras": [
+        "TürkPatent belgesine göre çemen; çemen unu, su, kırmızı toz biber, kimyon, tuz ve Taşköprü sarımsağından oluşur. Belgedeki bileşim yüzde 60 su, yüzde 30 çemen unu, yüzde 8 Taşköprü sarımsağı, yüzde 1 kırmızıbiber, yüzde 0,5 kimyon ve yüzde 0,5 tuzdur.",
+        "Belgeye göre pastırmanın tadı orta derecede tuzludur ve sarımsak aroması belirgindir. Çemenin ayrıntıları için Çemen ve Taşköprü sarımsağı makalesine bakabilirsiniz."
+      ]
+    },
+    {
+      "h2": "Kastamonu pastırması coğrafi işaretli mi?",
+      "paras": [
+        "Evet. TürkPatent kaydına göre Kastamonu Pastırması 29.03.2021'de mahreç işareti olarak tescil edildi (tescil no 711). Başvuru 29.12.2017 tarihlidir, tescil ettiren Kastamonu Esnaf ve Sanatkârlar Odaları Birliği'dir ve sınır Kastamonu ilidir.",
+        "Mahreç işareti, ünü ya da niteliği yöreyle ilişkili olan ve üretim aşamalarından en az biri o yörede yapılan ürünlere verilir. Tescili Türk Patent ve Marka Kurumu yapar."
+      ]
+    },
+    {
+      "h2": "Çimenağa'nın pastırma hikâyesi nedir?",
+      "paras": [
+        "Çimenağa'nın hikâyesi, Kastamonu'nun Devrekani ilçesinde pastırmacı olarak yola çıkan dedelerle başlar. Logodaki 1927 bu yolculuğun başlangıcıdır.",
+        "Pastırma acele kaldırmayan bir iştir: eti seçmek, tuzlamak, kurumasını beklemek ve çemeni sürmek, her adımın kendi zamanı vardır."
+      ]
+    },
+    {
+      "h2": "Pastırma nasıl yenir?",
+      "paras": [
+        "Pastırma kahvaltıda ince dilimlenip tavada, yumurta ya da pideyle servis edilir. Denemek için pastırmalı yumurta ve pastırmalı pide tariflerine bakabilirsiniz."
+      ]
+    }
+  ],
+  "related": [
+    "pastirmali-yumurta",
+    "pastirmali-pide",
+    "pastirmali-tost"
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-11",
+  "modified": "2026-10-11",
+  "image": "kastamonu-pastirmasi-nedir.webp",
+  "image_alt": "Çemen kaplı Kastamonu pastırması bloğu ve ahşap tahtada bıçakla ince dilimlenmiş pastırma yaprakları",
+  "image_w": 1200,
+  "image_h": 896
+}

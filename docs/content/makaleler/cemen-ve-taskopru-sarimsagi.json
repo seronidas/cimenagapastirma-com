@@ -1,0 +1,48 @@
+{
+  "slug": "cemen-ve-taskopru-sarimsagi",
+  "title": "Çemen ve Taşköprü Sarımsağı",
+  "description": "Kastamonu pastırmasını kaplayan çemenin içeriği ve Taşköprü sarımsağının coğrafi işaret kaydı, TürkPatent belgelerine göre.",
+  "answer": "Kastamonu pastırmasının çemeni, TürkPatent tescil belgesine göre çemen unu, su, kırmızı toz biber, kimyon, tuz ve Taşköprü sarımsağından oluşur. Taşköprü sarımsağı ise 03.12.2009'da menşe adı olarak tescil edilmiştir (tescil no 135).",
+  "sections": [
+    {
+      "h2": "Çemen nedir?",
+      "paras": [
+        "Çimenağa'da pastırma, Taşköprü sarımsaklı çemenle kaplanır.",
+        "TürkPatent belgesindeki bileşim yüzde 60 su, yüzde 30 çemen unu, yüzde 8 Taşköprü sarımsağı, yüzde 1 kırmızıbiber, yüzde 0,5 kimyon ve yüzde 0,5 tuzdur."
+      ]
+    },
+    {
+      "h2": "Pastırmanın tadı nasıldır?",
+      "paras": [
+        "TürkPatent belgesine göre Kastamonu pastırmasının tadı orta derecede tuzludur ve belirgin bir sarımsak aroması taşır."
+      ]
+    },
+    {
+      "h2": "Taşköprü sarımsağı coğrafi işaretli mi?",
+      "paras": [
+        "Evet. TürkPatent kaydına göre Taşköprü Sarımsağı menşe adı olarak tescillidir (no 135). Başvuru 28.05.2009'da yapıldı, tescil 03.12.2009'da gerçekleşti ve tescil ettiren Taşköprü Belediyesi'dir. Kayıtta 16.07.2021 tarihli bir değişiklik de bulunur.",
+        "Menşe adı, ürünün özelliklerinin tümüyle yöreye bağlı olduğu durumlarda verilen coğrafi işaret türüdür."
+      ]
+    },
+    {
+      "h2": "Güncel kayıtları nerede görebilirim?",
+      "paras": [
+        "Coğrafi işaret kayıtları TürkPatent coğrafi işaretler veri tabanında yer alır. Güncel bilgi için oradaki kayda bakmak en doğrusudur."
+      ]
+    }
+  ],
+  "related": [
+    "pastirmali-yumurta",
+    "pastirmali-kuru-fasulye",
+    "pastirmali-borek"
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-11",
+  "modified": "2026-10-11",
+  "image": "cemen-ve-taskopru-sarimsagi.webp",
+  "image_alt": "Taşköprü sarımsağı başları, havanda öğütülen çemen baharatları ve doğal pastırma çemeni malzemeleri",
+  "image_w": 1200,
+  "image_h": 896
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "pastirmali-borek",
+  "title": "Pastırmalı Paçanga Böreği (Fırında)",
+  "description": "Yufkayı dörde bölüp pastırma, domates, biber ve kaşarlı harçla saran, çıtır galeta unlu fırında 8 adetlik nefis paçanga böreği tarifi.",
+  "answer": "Pastırmalı paçanga böreği 8 adet çıkar; 10 dakika hazırlık ve 30 dakika pişirme gerektirir. Yufkalar dörde bölünüp pastırma, domates, biber ve kaşarlı harçla sarılır; yumurta ve galeta ununa bulanarak fırında çıtır çıtır pişirilir.",
+  "prep_min": 10,
+  "cook_min": 30,
+  "yield": "8 adet",
+  "ingredients": [
+    "2 adet yufka",
+    "100 g pastırma",
+    "1 adet domates",
+    "1 adet yeşil biber",
+    "1 kahve fincanı rendelenmiş kaşar",
+    "1 çay bardağı su",
+    "1/2 su bardağı sıvı yağ",
+    "2 adet yumurta",
+    "1 su bardağı galeta unu"
+  ],
+  "steps": [
+    "Pastırma, domates, yeşil biber ve kaşarı bir kapta karıştırarak iç harcı hazırlayın.",
+    "Su ile sıvı yağı karıştırıp sos yapın.",
+    "Yufkaları dörde bölün ve sosu sürün.",
+    "İç harcı yufkaların ortasına koyup yassı olacak biçimde katlayın.",
+    "Börekleri önce çırpılmış yumurtaya, sonra galeta ununa bulayın.",
+    "Fırın tepsisine dizip 180 derecede 30 dakika pişirin ve sıcak servis edin."
+  ],
+  "tips": [
+    "Kastamonu pastırması orta tuzludur, sarımsağı belirgindir; bu tarifte ekstra tuz eklemenize gerek kalmaz."
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-11",
+  "modified": "2026-10-15",
+  "category": "Atıştırmalık & Hamur İşi",
+  "image": "pastirmali-borek.webp",
+  "image_alt": "Çıtır galeta unlu, içi erimiş kaşar peyniri ve pastırma dolgulu dilimlenmiş paçanga böreği",
+  "image_w": 1200,
+  "image_h": 896
+}

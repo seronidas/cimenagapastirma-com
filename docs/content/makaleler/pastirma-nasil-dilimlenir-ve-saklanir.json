@@ -1,0 +1,36 @@
+{
+  "slug": "pastirma-nasil-dilimlenir-ve-saklanir",
+  "title": "Pastırma Nasıl Dilimlenir ve Saklanır?",
+  "description": "Pastırmanın ince dilimlenmesi ve saklanması hakkında kaynağı belirtilen, sayısal süre içermeyen kısa notlar.",
+  "answer": "Kastamonu pastırması kahvaltıda ince dilimlenip tavada, yumurta ya da pideyle servis edilir. Evde saklama için resmî ya da akademik bir kaynak bulunmadığından süre ve sıcaklık belirtmiyoruz.",
+  "sections": [
+    {
+      "h2": "Pastırma nasıl dilimlenir?",
+      "paras": [
+        "Pastırma kahvaltıda ince dilimlenip tavada pişirilir; yumurta ya da pideyle servis edilir.",
+        "TürkPatent belgesi Kastamonu pastırmasının dilim kalınlığını ortalama 0,75 mm olarak verir. Bu, ürün özelliği tanımıdır; ev için bir kalınlık tavsiyesi değildir."
+      ]
+    },
+    {
+      "h2": "Pastırma nasıl saklanır?",
+      "paras": [
+        "Pastırmanın evde saklanmasına dair süre ya da sıcaklık veren resmî veya akademik bir kaynağa ulaşamadık. Bu nedenle sayısal bir saklama süresi vermiyoruz.",
+        "Bir tarif sitesine (Yemek.com) göre dilimlenmiş pastırmanın yüzey alanı büyük olduğu için daha çabuk kurur ve kısa sürede tüketilmelidir. Aynı siteye göre pastırma hava almayacak şekilde yağlı kâğıt ve streç filmle sarılır, vakumlu paket açıldıktan sonra yeniden sarılır, buzdolabında sıcaklığı sabit bir bölmede, kapak raflarından uzak durur. Keskin kokusu nedeniyle ayrı bir kapta saklanması da önerilir.",
+        "Bu öneriler resmî bir kaynağa dayanmaz. Ürünün saklama koşulları için ambalajındaki bilgiye bakın."
+      ]
+    }
+  ],
+  "related": [
+    "pastirmali-yumurta",
+    "pastirmali-pide"
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-11",
+  "modified": "2026-10-11",
+  "image": "pastirma-nasil-dilimlenir-ve-saklanir.webp",
+  "image_alt": "Pastırma ustasının keskin bıçakla tahta üzerinde Kastamonu pastırmasını kağıt gibi ince dilimlemesi",
+  "image_w": 1200,
+  "image_h": 896
+}

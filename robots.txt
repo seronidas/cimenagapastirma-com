@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /docs/
+Sitemap: https://cimenagapastirma.com/sitemap.xml

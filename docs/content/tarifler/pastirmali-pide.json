@@ -1,0 +1,41 @@
+{
+  "slug": "pastirmali-pide",
+  "title": "Pastırmalı Pide",
+  "description": "Mayalı hamuru ceviz büyüklüğünde parçalarla açıp pastırmalı yumurtalı harçla dolduran, 180 °C fırında pişen 6 kişilik pide tarifi.",
+  "answer": "Pastırmalı pide 6 kişilik olup 25 dakika hazırlık ve 30 dakika pişirme gerektirir. Maya, ılık su, un ve tuzla hamur yoğrulup kabarana kadar dinlendirilir, açılan hamurlara pastırmalı yumurtalı harç konur ve pideler önceden ısıtılmış 180 derece fırında 30 dakika pişirilir.",
+  "prep_min": 25,
+  "cook_min": 30,
+  "yield": "6 kişilik",
+  "ingredients": [
+    "500 g un",
+    "1 su bardağı ılık su",
+    "1 tatlı kaşığı kuru maya",
+    "tuz (damak tadına göre)",
+    "250 g pastırma",
+    "2 adet yumurta"
+  ],
+  "steps": [
+    "Kuru mayayı ılık suyla ezip kabarana kadar bekletin.",
+    "Unu geniş bir kaba alın, ortasına mayalı suyu ve tuzu ekleyip yumuşak bir hamur yoğurun.",
+    "Üzerini nemli bezle örtüp hamuru kabarana kadar dinlendirin.",
+    "Pastırmayı ince ince doğrayın, yumurtaları ekleyip karıştırın.",
+    "Hamurdan ceviz büyüklüğünde parçalar koparıp elinizle yaklaşık 10 cm çapında açın.",
+    "Pastırmalı harcı hamurların üzerine yayıp iki kenarını katlayarak pide biçiminde kapatın.",
+    "Pideleri yağlanmış fırın tepsisine dizin ve önceden 180 dereceye ısıtılmış fırında 30 dakika pişirin.",
+    "Sıcak servis edin."
+  ],
+  "tips": [
+    "Kastamonu pastırması orta tuzludur, sarımsağı belirgindir."
+  ],
+  "products": [
+    "kastamonu-pastirmasi",
+    "kastamonu-pastirmali-ince-pide"
+  ],
+  "published": "2026-10-11",
+  "modified": "2026-10-11",
+  "category": "Ana yemek",
+  "image": "pastirmali-pide.webp",
+  "image_alt": "Taş fırından yeni çıkmış, erimiş kaşar peynirli ve ince dilim Kastamonu pastırmalı açık pide",
+  "image_w": 1200,
+  "image_h": 896
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "pastirmali-kuru-fasulye",
+  "title": "Pastırmalı Kuru Fasulye",
+  "description": "Bir gece ıslatılan fasulyeyi pastırma, soğan ve salçayla kısık ateşte pişiren, 6 kişilik kuru fasulye tarifi.",
+  "answer": "Pastırmalı kuru fasulye 6 kişiliktir; fasulye bir gece önceden ıslatılır, ardından 20 dakika hazırlık ve 1 saat pişirme gerekir. Fasulye ön haşlanır, soğan, salça, domates ve pastırma yağda çevrilir, fasulye ve sıcak su eklenip yumuşayana kadar kısık ateşte pişirilir.",
+  "prep_min": 20,
+  "cook_min": 60,
+  "yield": "6 kişilik",
+  "ingredients": [
+    "2 su bardağı kuru fasulye",
+    "150 g pastırma",
+    "1 adet büyük kuru soğan",
+    "2 diş sarımsak",
+    "2 adet orta boy domates (ya da 1 su bardağı domates püresi)",
+    "1 yemek kaşığı domates salçası",
+    "1 yemek kaşığı biber salçası",
+    "3 yemek kaşığı tereyağı veya zeytinyağı",
+    "1 çay kaşığı karabiber",
+    "1 çay kaşığı pul biber",
+    "tuz (damak tadına göre)",
+    "5-6 su bardağı sıcak su"
+  ],
+  "steps": [
+    "Kuru fasulyeyi bir gece önceden bol suda ıslatın; ertesi gün süzüp yıkayın.",
+    "Fasulyeyi tencereye alıp üzerini örtecek kadar su ekleyin ve hafifçe yumuşayana kadar ön haşlayın.",
+    "Doğranmış soğanı ve ezilmiş sarımsağı yağla hafif renk alana kadar kavurun.",
+    "Domates ve biber salçasını ekleyip kokusu çıkana kadar karıştırın.",
+    "Domatesleri ya da domates püresini ekleyip birkaç dakika pişirin.",
+    "Doğranmış pastırmayı ekleyip kısa süre çevirin.",
+    "Ön haşlanmış fasulyeyi, karabiberi, pul biberi ve sıcak suyu ekleyin; fasulye tamamen yumuşayana kadar kısık ateşte pişirin.",
+    "Tuzu pişirmenin sonlarına doğru ekleyin, kısa süre dinlendirip sıcak servis edin."
+  ],
+  "tips": [
+    "Pastırma da tuzlu olduğundan tuzu en son, tadarak ekleyin. Kastamonu pastırması orta tuzludur, sarımsağı belirgindir."
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-11",
+  "modified": "2026-10-11",
+  "category": "Ana yemek",
+  "image": "pastirmali-kuru-fasulye.webp",
+  "image_alt": "Toprak güveçte kıvamlı sosu ve pastırma dilimleriyle servis edilen geleneksel kuru fasulye yemeği",
+  "image_w": 1200,
+  "image_h": 896
+}
