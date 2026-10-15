@@ -85,7 +85,7 @@ def local_target(href):
     return ROOT / path.lstrip("/")
 
 
-pages = [p for p in ROOT.rglob("*.html") if "docs" not in p.relative_to(ROOT).parts]
+pages = [p for p in ROOT.rglob("*.html") if "docs" not in p.relative_to(ROOT).parts and not p.name.startswith("google")]
 if not pages:
     err("Hiç HTML sayfası yok")
 

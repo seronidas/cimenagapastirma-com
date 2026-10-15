@@ -109,6 +109,7 @@ def img_size(rel, default=(1600, 900)):
 def page(rel, title, desc, body, ld, image=None):
     otype = "article" if rel.startswith("makaleler/") else "website"
     og = f'\n<meta property="og:image" content="{SITE}/assets/img/{e(image)}">' if image else ""
+    gver = '\n<meta name="google-site-verification" content="googleef782f67a7468754">' if rel == "index.html" else ""
     scripts = "\n".join(ld_tag(d) for d in ld)
     return f"""<!doctype html>
 <html lang="tr">
@@ -117,7 +118,7 @@ def page(rel, title, desc, body, ld, image=None):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc, quote=True)}">
-<link rel="canonical" href="{url_of(rel)}">
+<link rel="canonical" href="{url_of(rel)}">{gver}
 <meta property="og:type" content="{otype}">
 <meta property="og:site_name" content="Çimenağa Tarifler">
 <meta name="twitter:card" content="summary">
