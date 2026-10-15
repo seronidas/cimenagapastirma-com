@@ -127,9 +127,6 @@ def page(rel, title, desc, body, ld, image=None):
 <meta property="og:description" content="{e(desc, quote=True)}">
 <meta property="og:url" content="{url_of(rel)}">{og}
 <meta name="theme-color" content="#14284b">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap">
 <link rel="stylesheet" href="/assets/style.css">
 {scripts}
 </head>
