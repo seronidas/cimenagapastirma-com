@@ -223,9 +223,6 @@ def tips_html(d):
     return "<h2>İpuçları</h2>\n<ul class=\"tips\">\n" + "".join(f"<li>{e(x)}</li>" for x in d["tips"]) + "\n</ul>"
 
 
-def date_line(d):
-    return f'<p class="date">Son güncelleme: <time datetime="{d["modified"]}">{d["modified"]}</time></p>'
-
 
 def card(prefix, d, label, meta=""):
     return (f'<li class="card"><a href="/{prefix}/{d["slug"]}.html">{thumb(d)}<div class="txt">'
@@ -272,7 +269,6 @@ def build_recipe(d):
 </ol>
 {tips_html(d)}</div>
 </div>
-{date_line(d)}
 </div>
 </article>
 {cta(d, "tarif")}
@@ -316,7 +312,6 @@ def build_article(d, recipes):
 <h1>{e(d["title"])}</h1>
 <p class="answer">{e(d["answer"])}</p>
 {secs}
-{date_line(d)}
 </div>
 </article>
 {rel_html}
@@ -380,8 +375,6 @@ def build_return_policy():
 <b>Adres:</b> Hepkebirler Mh. Omuzlu Sk. No:1, Merkez, Kastamonu<br>
 <b>Çalışma Saatleri:</b> Her gün 08:00 - 20:00<br>
 <b>Resmî Mağaza Sayfası:</b> <a href="{SHOP}/iade-ve-iptal-politikasi.html">cimenaga.com İptal ve İade Koşulları</a></p>
-
-<p class="date">Son güncelleme: <time datetime="2026-10-15">2026-10-15</time></p>
 </div>
 </article>"""
     write(rel, page(rel, "İptal ve İade Koşulları | Çimenağa",
