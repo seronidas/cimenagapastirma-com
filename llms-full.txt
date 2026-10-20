@@ -17,16 +17,64 @@
 - **Politika Sayfaları:** https://cimenagapastirma.com/iade-ve-iptal-politikasi.html ve https://cimenaga.com/iade-ve-iptal-politikasi.html
 
 ## Kastamonu Pastırmasının Ayırt Edici Nitelikleri
-1. **Doğal Sayvan Kurutması:** Fırınlama veya suni sıcak hava kullanılmaz; Ilgaz Dağı esintisini alan üstü kapalı çatı katlarında (sayvan) güneşte ve rüzgarda 60 gün boyunca aceleye getirilmeden doğal kurutulur.
-2. **Taşköprü Sarımsaklı Çemen:** Tescil belgesine göre çemen bileşimi: %60 su, %30 çemen unu (buyotu), %8 Taşköprü sarımsağı, %1 kırmızı toz biber, %0,5 kimyon, %0,5 tuz.
+1. **Sayvanda Kurutma:** Ilgaz Dağı esintisini alan üstü kapalı çatılarda (sayvan) güneşte kurutulur. TürkPatent tescil belgesinde kurutma süresi 30 gün olarak tanımlanır; Çimenağa kendi uygulamasında daha lezzetli olması için pastırmayı daha uzun, yaklaşık 60 gün olgunlaştırır.
+2. **Taşköprü Sarımsaklı Çimen (Çemen):** Tescil belgesine göre çimen (çemen) bileşimi: %60 su, %30 çemen unu (buyotu), %8 Taşköprü sarımsağı, %1 kırmızı toz biber, %0,5 kimyon, %0,5 tuz.
 3. **Geleneksel İnce Dilimleme:** Keskin pastırma bıçağı ve satırla elde ortalama 0,75 mm tül inceliğinde dilimlenir.
 
 ## Ürünler
-- [Kastamonu Pastırması](https://cimenaga.com/urun/kastamonu-pastirmasi.html?ref=llms_full): Coğrafi işaretli, el dilimi, Taşköprü sarımsaklı çemenle kaplı, 1 kg.
-- [Kastamonu Sucuğu](https://cimenaga.com/urun/kastamonu-sucugu.html?ref=llms_full): Geleneksel fermente dana sucuğu, 1 kg.
-- [Kastamonu Pastırmalı İnce Pide](https://cimenaga.com/urun/kastamonu-pastirmali-ince-pide.html?ref=llms_full): Taş fırında pişirilip dondurulmuş yöresel pastırmalı ekmek.
+- [Kastamonu Pastırması](https://cimenaga.com/urun/kastamonu-pastirmasi.html?ref=llms_full): Coğrafi işaretli, el dilimi, Taşköprü sarımsaklı çimenle kaplı, 500 g ve katları (1 kg: 2.800 ₺).
+- [Kastamonu Sucuğu](https://cimenaga.com/urun/kastamonu-sucugu.html?ref=llms_full): Geleneksel fermente dana sucuğu, 500 g ve katları (1 kg: 2.000 ₺).
+- [Kastamonu Pastırmalı İnce Pide](https://cimenaga.com/urun/kastamonu-pastirmali-ince-pide.html?ref=llms_full): Birlikte çalışılan odun fırınında pişirilip dondurulmuş gönderilen yöresel pastırmalı ekmek (adet 350 ₺).
 
 ## Tarifler (Tam Metin)
+### Bol Köpüklü Taş Dibek Kahvesi
+- **URL:** https://cimenagapastirma.com/tarifler/dibek-kahvesi.html
+- **Kategori:** İçecek
+- **Süre:** Hazırlık 5 dk, Pişirme 7 dk, Toplam 12 dk
+- **Porsiyon:** 2 kişilik
+- **Özet:** Köpüklü taş dibek kahvesi fincan başına 1 tepeleme tatlı kaşığı taze dibek kahvesi ve soğuk içme suyu ile bakır cezvede hazırlanır. Kısık ateşte karıştırmadan kabarmaya bırakılır, ilk köpüğü fincanlara paylaştırılıp bir taşım daha kaynatılarak servis edilir.
+- **Malzemeler:**
+  - 2 tatlı kaşığı tepeleme taş dibek kahvesi
+  - 2 fincan soğuk içme suyu
+  - 1 tatlı kaşığı toz şeker (isteğe bağlı)
+- **Yapılışı:**
+  1. Bakır cezveye her fincan için bir fincan soğuk içme suyu koyun.
+  2. Üzerine fincan başına bir tepeleme tatlı kaşığı taş dibek kahvesi ve arzuya göre şekeri ilave edin.
+  3. Ocağa almadan önce kahve ve su tamamen karışana kadar kaşıkla 15-20 saniye çırpın.
+  4. Cezveyi en kısık ateşteki ocağa yerleştirin ve ocağa koyduktan sonra kesinlikle karıştırmayın.
+  5. Kahve ağır ağır ısınıp kenarlardan yükselmeye ve koyu kadifemsi bir köpük oluşturmaya başlayana kadar bekleyin.
+  6. Kabaran köpüğü kaşık yardımıyla fincanlara eşit olarak paylaştırın.
+  7. Cezveyi tekrar ateşe koyun, bir taşım daha yükselince kalan kahveyi fincanların kenarından yavaşça dökün.
+  8. Yanında soğuk su ve Kastamonu çekme helvası ile ikram edin.
+- **İpuçları:**
+  - Dibek kahvesi taş dibeklerde tokmakla dövüldüğü için Türk kahvesine göre daha iri tanelidir ve kıvamı daha yoğundur; kısık ateşte ağır pişirilmesi aromaların açığa çıkması için şarttır.
+  - Çeşme suyu yerine buzdolabından çıkmış soğuk içme suyu kullanmak köpük yoğunluğunu iki katına çıkarır.
+
+### Kastamonu Çekme Helvası
+- **URL:** https://cimenagapastirma.com/tarifler/kastamonu-cekme-helvasi.html
+- **Kategori:** Tatlı
+- **Süre:** Hazırlık 20 dk, Pişirme 35 dk, Toplam 55 dk
+- **Porsiyon:** 8 kişilik
+- **Özet:** Kastamonu çekme helvası 8 kişilik olup unun tereyağında kokusu çıkana kadar ağır ateşte kavrulması, ardından pudra şekeri ile tel tel olana dek yoğrulup tepsiye sıkıca preslenmesiyle yapılır. Küçük küpler halinde dilimlendikten sonra oda sıcaklığında ağızda dağılan bir kıvama kavuşur.
+- **Malzemeler:**
+  - 3 su bardağı buğday unu
+  - 150 g tereyağı
+  - 1,5 su bardağı pudra şekeri
+  - 2 yemek kaşığı sade yağ
+  - 1 çay bardağı dövülmüş Antep fıstığı (üzeri için)
+- **Yapılışı:**
+  1. Geniş ve kalın tabanlı bir tencereye unu alın, kısık ateşte tahta kaşıkla sürekli karıştırarak unun çiğ kokusu çıkıp rengi hafif krem rengi olana kadar yaklaşık 25-30 dakika kavurun.
+  2. Ayrı bir tavada tereyağını ve sade yağı eritin, köpüğünü alıp kavrulan unun üzerine azar azar dökerek iyice harmanlayın.
+  3. Tencereyi ocaktan alın ve harcın ilk sıcaklığının çıkması için 5 dakika havalandırarak ılıtın.
+  4. Ilıyan unlu karışıma elenmiş pudra şekerini ekleyin.
+  5. Karışımı ellerinizle veya tezgâhta bastırarak, şeker unla tamamen özleşip tel tel ayrışan lifli kıvama gelene kadar 10-15 dakika sabırla yoğurun.
+  6. Kare veya dikdörtgen bir borcamın tabanına dövülmüş fıstıkları serpin, helva harcını üzerine döküp düzleştirin.
+  7. Üzerine düz tabanlı bir bardak bastırarak helvayı sıkıca presleyin ve sıkıştırın.
+  8. Bıçakla küçük kare lokmalar halinde dilimleyin, tamamen soğuduktan sonra tepsiden çıkarıp servis edin.
+- **İpuçları:**
+  - Unun rengini karartmamak, sadece çiğ un kokusu gidene kadar sabırla kısık ateşte kavurmak çekme helvasının açık rengini ve pamuksu dokusunu korur.
+  - Pudra şekerini çok sıcakken eklerseniz şeker erir ve helva tel tel olmaz; harcın ılık olması püf noktasıdır.
+
 ### Pastırmalı Paçanga Böreği (Fırında)
 - **URL:** https://cimenagapastirma.com/tarifler/pastirmali-borek.html
 - **Kategori:** Atıştırmalık & Hamur İşi
@@ -147,6 +195,33 @@
   - Kastamonu pastırması orta tuzludur, sarımsağı belirgindir; bu yüzden tuzu en son tadarak ekleyin.
   - Pastırmayı tavaya koymadan önce kısa süre suda pişirmek daha yumuşak olmasını sağlar.
 
+### Siyez Bulgur Pilavı
+- **URL:** https://cimenagapastirma.com/tarifler/siyez-bulgur-pilavi.html
+- **Kategori:** Ana yemek
+- **Süre:** Hazırlık 10 dk, Pişirme 25 dk, Toplam 35 dk
+- **Porsiyon:** 4 kişilik
+- **Özet:** Kastamonu usulü siyez bulgur pilavı 4 kişilik olup 10 dakika hazırlık ve 25 dakika pişirme gerektirir. Yemeklik doğranmış soğan tereyağında pembeleştirilir, yıkanıp süzülen siyez bulguru eklenip 2-3 dakika kavrulur; sıcak et suyu ve tuz eklenerek kısık ateşte suyunu çekene kadar pişirilip 15 dakika demlendirilir.
+- **Malzemeler:**
+  - 2 su bardağı Kastamonu siyez bulguru
+  - 1 adet orta boy kuru soğan
+  - 2 yemek kaşığı tereyağı
+  - 1 yemek kaşığı zeytinyağı
+  - 3,5 su bardağı sıcak et suyu
+  - 1 tatlı kaşığı tuz
+  - 1 çay kaşığı karabiber
+- **Yapılışı:**
+  1. Siyez bulgurunu bol suda yıkayıp süzün.
+  2. Geniş tabanlı pilav tenceresinde tereyağı ve zeytinyağını ısıtın.
+  3. Yemeklik ince doğranmış kuru soğanı ekleyip pembeleşene kadar kavurun.
+  4. Süzülen siyez bulgurunu tencereye ilave edin ve tahta kaşıkla 2-3 dakika kokusu çıkana kadar kavurun.
+  5. Sıcak et suyunu, tuz ve karabiberi ekleyip bir kez karıştırın.
+  6. Tencerenin kapağını kapatın, kaynamaya başlayınca ocağın altını en kısığa getirin.
+  7. Bulgurlar suyunu tamamen çekene kadar yaklaşık 20-25 dakika pişirin.
+  8. Ocaktan aldıktan sonra tencerenin kapağının altına kâğıt havlu koyup 15 dakika demlendirin ve sıcak servis edin.
+- **İpuçları:**
+  - Siyez bulguru sert kabuklu ve lifli bir ata buğdayı olduğu için klasik pilavlık bulgura göre biraz daha fazla su çeker; tane tane olması için kısık ateşte demlenmesi önemlidir.
+  - Kastamonu geleneksel sofralarında pilavın üzerine birkaç dilim tavada çevrilmiş Kastamonu pastırması eklenerek servis edilmesi yaygın bir gurme ritüelidir.
+
 ### Sucuklu Patates
 - **URL:** https://cimenagapastirma.com/tarifler/sucuklu-patates.html
 - **Kategori:** Ana yemek
@@ -219,69 +294,97 @@
   - Teflon, seramik ya da granit tava kullanıyorsanız tereyağına gerek yoktur; kalaylı bakır sahanda yağ ekleyin.
   - Kızarmış ekmek ve kahvaltılıklarla servis edebilirsiniz.
 
+### Geleneksel Vişne Reçeli
+- **URL:** https://cimenagapastirma.com/tarifler/visne-receli.html
+- **Kategori:** Kahvaltılık
+- **Süre:** Hazırlık 20 dk, Pişirme 35 dk, Toplam 55 dk
+- **Porsiyon:** 6 kişilik
+- **Özet:** Geleneksel vişne reçeli 6 kişilik olup 1 kg çekirdeksiz vişne ve 1 kg toz şekerin bir gece bekletilip kendi suyunu salmasıyla başlar. Orta ateşte köpükleri alınarak 30 dakika kaynatılır, ocaktan inmeye 5 dakika kala taze limon suyu eklenerek parlak kıvam elde edilir.
+- **Malzemeler:**
+  - 1 kg taze vişne (ayıklanmış ve çekirdeksiz)
+  - 1 kg toz şeker
+  - 1 yemek kaşığı taze sıkılmış limon suyu
+  - 1 çay kaşığı tereyağı (köpük önleyici)
+- **Yapılışı:**
+  1. Vişneleri bol suda yıkayıp saplarını ayıklayın ve çekirdeklerini çıkarın.
+  2. Geniş reçel tenceresine bir kat vişne bir kat toz şeker olacak şekilde yerleştirin.
+  3. Tencerenin kapağını kapatıp vişnelerin suyunu tamamen salması için en az 8-10 saat bekletin.
+  4. Sulanan tencereyi ocağa alın, içine tereyağını ekleyin ve orta ateşte kaynamaya bırakın.
+  5. Kaynama sırasında yüzeyde oluşan köpükleri kevgirle düzenli olarak temizleyin.
+  6. Vişneler parlayıp şerbeti koyulaşana kadar yaklaşık 25-30 dakika orta ateşte pişirin.
+  7. Ocaktan almadan 5 dakika önce taze limon suyunu ekleyip reçeli bir taşım daha kaynatın.
+  8. Kıvam testi için soğuk bir tabağa birkaç damla reçel damlatın; dağılmıyorsa tencereyi ocaktan alın ve sıcakken temiz cam kavanozlara paylaştırıp kapatın.
+- **İpuçları:**
+  - Pişirme esnasında atılan bir çay kaşığı tereyağı reçelin taşmasını ve aşırı köpürmesini önler, berraklık kazandırır.
+  - Kastamonu kahvaltı sofralarında taze köy ekmeği ve pastırma yanında tatlı-tuzlu dengesi için vazgeçilmez bir eşlikçidir.
+
 ## Makaleler (Tam Metin ve Soru-Cevaplar)
-### Çemen ve Taşköprü Sarımsağı
+### Çimen (Çemen) ve Taşköprü Sarımsağı
 - **URL:** https://cimenagapastirma.com/makaleler/cemen-ve-taskopru-sarimsagi.html
-- **Özet:** Kastamonu pastırmasının çemeni; doğal çemen unu (buyotu), Taşköprü sarımsağı, kırmızı toz biber, kimyon ve kaya tuzunun suyla yoğrulmasıyla hazırlanır. Dünyaca ünlü Taşköprü sarımsağı, yüksek kuru madde oranı ve yoğun aromasıyla çemenin pastırmaya lezzetini ve doğal koruyuculuğunu verir.
-#### Çemen nedir ve nasıl hazırlanır?
-Çemen, pastırma yapımında kurutulan etin dış yüzeyini kaplayan geleneksel baharatlı sostur. Çimenağa'da pastırmalar, asırlık reçeteye sadık kalınarak hazırlanan Taşköprü sarımsaklı çemenle sıvanır.
-Geleneksel bileşim; yüzde 60 temiz su, yüzde 30 doğal çemen unu (buyotu tohumu), yüzde 8 Taşköprü sarımsağı, yüzde 1 tatlı/acı kırmızı biber, yüzde 0,5 kimyon ve yüzde 0,5 kaya tuzundan oluşur. Malzemeler macun kıvamına gelene kadar yoğrulur ve dinlendirilir.
-#### Taşköprü sarımsağının çemene kattığı fark nedir?
-Taşköprü sarımsağı, zengin kükürtlü bileşikleri, yüksek selenyum oranı ve kuru madde zenginliğiyle bilinir. Bu özellik, sarımsağın aromatik gücünü sıradan sarımsaklara göre çok daha yoğun ve kalıcı kılar.
-Yüksek kuru madde oranı sayesinde çemen eti sıkıca kavrar; dilimlerken ya da tavada pişirirken etten dökülüp ayrılmaz. Kokusu ve tadı ete homojen biçimde işler.
+- **Özet:** Kastamonu pastırmasının çimeni (tescil belgesindeki adıyla çemen); doğal çemen unu (buyotu), Taşköprü sarımsağı, kırmızı toz biber, kimyon ve kaya tuzunun suyla yoğrulmasıyla hazırlanır. Dünyaca ünlü Taşköprü sarımsağı, yüksek kuru madde oranı ve yoğun aromasıyla çimenin pastırmaya lezzetini ve doğal koruyuculuğunu verir.
+#### Çimen (çemen) nedir ve nasıl hazırlanır?
+Çimen, pastırma yapımında kurutulan etin dış yüzeyini kaplayan geleneksel baharatlı sostur. Çimenağa'da pastırmalar, asırlık reçeteye sadık kalınarak hazırlanan Taşköprü sarımsaklı çimenle sıvanır.
+TürkPatent tescil belgesine göre bileşim; yüzde 60 temiz su, yüzde 30 doğal çemen unu (buyotu tohumu), yüzde 8 Taşköprü sarımsağı, yüzde 1 tatlı/acı kırmızı biber, yüzde 0,5 kimyon ve yüzde 0,5 kaya tuzundan oluşur. Malzemeler macun kıvamına gelene kadar yoğrulur ve dinlendirilir.
+#### Taşköprü sarımsağının çimene kattığı fark nedir?
+Taşköprü sarımsağı, zengin kükürtlü bileşikleri, kuru madde zenginliğiyle bilinir. Bu özellik, sarımsağın aromatik gücünü sıradan sarımsaklara göre çok daha yoğun ve kalıcı kılar.
+Yüksek kuru madde oranı sayesinde çimen eti sıkıca kavrar; dilimlerken ya da tavada pişirirken etten dökülüp ayrılmaz. Kokusu ve tadı ete homojen biçimde işler.
 #### Pastırmanın tadı ve aroması nasıldır?
 Kastamonu pastırması orta derecede dengeli bir tuzluluk, yumuşak bir et dokusu ve ilk lokmada hissedilen belirgin bir Taşköprü sarımsağı rayihasına sahiptir.
-Ilgaz Dağı'nın serin esintisinde doğal yollarla kurutulduğu için suni fırınlama pastırmaları gibi sert ve aşırı tuzlu değildir; çemenin baharat dengesi etin kendi lezzetini bastırmaz, zenginleştirir.
-#### Çemen eti nasıl korur?
-Çemen sadece bir lezzet sosu değil, aynı zamanda etin havayla temasını kesen doğal ve hijyenik bir koruma kalkanıdır. Taşköprü sarımsağının içerdiği doğal antibakteriyel bileşenler ve çemen ununun yoğun dokusu, pastırmanın bozulmadan aylarca olgunlaşmasını ve tazeliğini sürdürmesini sağlar.
+Gün kurusu olması, etin sert olmamasını sağlar; çimenin baharat dengesi etin kendi lezzetini bastırmaz, zenginleştirir.
+#### Çimen eti nasıl korur?
+Çimen sadece bir lezzet sosu değil, aynı zamanda etin havayla temasını kesen doğal ve hijyenik bir koruma kalkanıdır. Taşköprü sarımsağının içerdiği çemen ununun yoğun dokusu, çimenin havayla temasını kesen koruyucu bir tabaka oluşturmasına yardımcı olur.
 
 ### Kastamonu'nun Coğrafi İşaretli Lezzetleri
 - **URL:** https://cimenagapastirma.com/makaleler/kastamonu-cografi-isaretli-lezzetleri.html
-- **Özet:** Coğrafi işaret, yöreye özgü geleneksel üretim yöntemlerini ve ürün kalitesini koruyan tescildir. Kastamonu; Taşköprü sarımsağı, Kastamonu pastırması, Tosya pirinci ve siyez bulguru gibi onlarca tescilli değeriyle Türkiye'nin en köklü mutfak miraslarından birini barındırır.
+- **Özet:** Coğrafi işaret, yöreye özgü geleneksel üretim yöntemlerini ve ürün kalitesini koruyan tescildir. Kastamonu; Taşköprü sarımsağı, Kastamonu pastırması, Tosya pirinci, Siyez bulguru ve Kastamonu çekme helvası gibi onlarca tescilli değeriyle Türkiye'nin en köklü mutfak miraslarından birini barındırır.
 #### Coğrafi işaret nedir?
 Coğrafi işaret; belirgin bir niteliği, ünü veya diğer özellikleriyle kökeninin bulunduğu yöre, alan, bölge veya ülke ile özdeşleşmiş bir ürünü gösteren tescildir. Ürünün tüm özellikleri yörenin doğasına ve insanına bağlıysa menşe adı; üretim adımlarından en az biri o yörede gerçekleşiyorsa mahreç işareti olarak korunur.
 #### Taşköprü sarımsağının özelliği nedir?
-Taşköprü Sarımsağı menşe adı tesciline sahiptir. Bölgenin toprak yapısı ve mikrokliması sayesinde yüksek kuru madde oranına, zengin kükürt bileşiklerine ve güçlü bir aromaya sahiptir. Uzun süre bozulmadan saklanabilmesi ve çemene kattığı eşsiz tat ile pastırmanın vazgeçilmez tamamlayıcısıdır.
+Taşköprü Sarımsağı menşe adı tesciline sahiptir. Bölgenin toprak yapısı ve mikrokliması sayesinde yüksek kuru madde oranına, zengin kükürt bileşiklerine ve güçlü bir aromaya sahiptir. Uzun süre bozulmadan saklanabilmesi ve çimene kattığı eşsiz tat ile pastırmanın vazgeçilmez tamamlayıcısıdır.
 #### Kastamonu pastırmasını farklı kılan nedir?
-Kastamonu Pastırması mahreç işareti tesciliyle korunan köklü bir lezzettir. Fırınlama yerine Ilgaz Dağı esintisini alan sayvanlarda 60 gün boyunca güneşte ve rüzgarda aceleye getirilmeden doğal olarak kurutulur. Taşköprü sarımsaklı çemenle kaplanır ve elde tül inceliğinde dilimlenir.
+Kastamonu Pastırması mahreç işareti tesciliyle korunan köklü bir lezzettir. Ilgaz Dağı esintisini alan sayvanlarda güneşte kurutulur; tescil belgesinde kurutma süresi 30 gün olarak tanımlanır. Taşköprü sarımsaklı çimenle kaplanır ve elde tül inceliğinde dilimlenir.
 #### Tosya pirincinin lezzet sırrı nedir?
 Tosya Pirinci de Kastamonu'nun tescilli menşe adı değerlerindendir. Ilgaz Dağları'nın kar sularıyla beslenen Devrez Çayı vadisinde yetiştirilir. Pişerken tane tane kalması, su çekme kapasitesi ve kendine has lezzetiyle geleneksel pilavların ve pastırmalı yemeklerin baş tacıdır.
+#### Kastamonu Siyez bulgurunun farkı nedir?
+Kastamonu Siyez Bulguru, geçmişi 10-12 bin yıl öncesine uzanan ata tohumu siyez buğdayından (Triticum monococcum) taş değirmenlerde geleneksel usulle işlenerek elde edilir. Tescilli menşe adı korumasındadır. Yüksek lif, protein, mineral ve düşük glisemik indeksiyle besin değeri çok yüksektir; kendine has fındıksı aromasıyla siyez bulgur pilavında eşsiz bir lezzet sunar.
+#### Kastamonu çekme helvasının özelliği nedir?
+Kastamonu Çekme Helvası, saray mutfağından günümüze miras kalan ve Kastamonu ile özdeşleşmiş bir tatlıdır. Tereyağında sabırla kavrulan buğday ununun ağartılmış şeker ve pudra şekeriyle mermer tezgâhlarda lif lif çekilerek tel tel açılmasıyla yapılır. Preslenip küp lokmalar halinde kesilir; ağızda pamuk gibi anında eriyen dokusuyla meşhurdur.
 #### Kastamonu'nun diğer öne çıkan tescilli lezzetleri nelerdir?
-Kastamonu mutfağı bereketli toprakları ve asırlık zanaatkarlarıyla büyük bir zenginliğe sahiptir. Pastırma, sarımsak ve pirincin yanı sıra Kastamonu Siyez Bulguru, Kastamonu Susamsız Simidi, Çekme Helvası, Kestane Balı, Devrekani Hindi Banduması, Devrekani Cırık Tatlısı, Daday Etli Ekmeği, Pınarbaşı Kara Çorbası ve Taşköprü Kuyu Kebabı kentin en bilinen gastronomi değerleri arasındadır.
+Kastamonu mutfağı bereketli toprakları ve asırlık zanaatkarlarıyla büyük bir zenginliğe sahiptir. Pastırma, sarımsak, pirinç ve siyezin yanı sıra Kastamonu Simidi, Kestane Balı, Devrekani Hindi Banduması, Devrekani Cırık Tatlısı, Daday Etli Ekmeği, Pınarbaşı Kara Çorbası ve Taşköprü Kuyu Kebabı kentin en bilinen gastronomi değerleri arasındadır.
 Çimenağa olarak 1927'den beri Kastamonu Devrekani merkezli üretimimizde bu eşsiz mirasın pastırma ve sucuk geleneğini ilk günkü titizlikle sürdürüyoruz.
 
 ### Kastamonu Pastırması Nedir?
 - **URL:** https://cimenagapastirma.com/makaleler/kastamonu-pastirmasi-nedir.html
-- **Özet:** Kastamonu pastırması; kemiksiz sığır sırt etinin kaya tuzuyla tuzlanıp, Ilgaz rüzgarını alan sayvanlarda 60 gün boyunca aceleye getirilmeden doğal kurutulması ve Taşköprü sarımsaklı özel çemenle kaplanmasıyla üretilen coğrafi işaretli geleneksel bir lezzettir.
+- **Özet:** Kastamonu pastırması; kemiksiz sığır sırt etinin kaya tuzuyla tuzlanıp, Ilgaz rüzgarını alan sayvanlarda güneşte doğal kurutulması ve Taşköprü sarımsaklı özel çimenle (çemen) kaplanmasıyla üretilen coğrafi işaretli geleneksel bir lezzettir.
 #### Kastamonu pastırması nasıl yapılır?
-Kastamonu pastırmasının yapımı sabır ve zanaat gerektirir. Dinlendirilmiş kaliteli kemiksiz sırt eti, kaya tuzuyla tuzlanarak 3 gün bekletilir. Ardından özel preslerde ağırlık altında sıkıştırılarak fazla suyundan arındırılır ve yıkanır.
-En önemli aşama ise kurutmadır: Fırınlama veya suni sıcak hava kullanılmaz; 'sayvan' adı verilen üstü kapalı, yanları açık çatı katlarında Ilgaz Dağı'ndan gelen doğal esintiyle yaklaşık 60 gün boyunca güneşte ve rüzgarda aceleye getirilmeden yavaş yavaş kurutulur. Kuruyan etler Taşköprü sarımsaklı çemen hamuruyla sıvanarak olgunlaşmaya bırakılır.
-#### Çemen nedir, pastırmaya ne katar?
-Çemen; doğal çemen unu (buyotu), su, Taşköprü sarımsağı, kırmızı toz biber, kimyon ve kaya tuzunun harmanlanmasıyla hazırlanan özel bir kaplamadır.
-Bu geleneksel çemen, pastırmaya dengeli bir tuzluluk ve buram buram Taşköprü sarımsağı aroması kazandırır. Aynı zamanda eti dış etkenlere karşı koruyarak tazeliğini aylarca muhafaza etmesini sağlar.
+Kastamonu pastırmasının yapımı sabır ve zanaat gerektirir. Dinlendirilmiş kaliteli kemiksiz sırt eti, kaya tuzuyla tuzlanarak 3 gün bekletilir. Ardından ağırlıklar yardımıyla sıkıştırılarak fazla suyundan arındırılır ve yıkanır.
+En önemli aşama kurutmadır: kurutma 'sayvan' adı verilen üstü kapalı çatılarda Ilgaz Dağı'ndan gelen esintiyle güneşte yapılır. TürkPatent tescil belgesinde bu süre 30 gün olarak tanımlanır; Çimenağa'nın kendi uygulamasında ise pastırmalar daha lezzetli olması için daha uzun, yaklaşık 60 gün olgunlaştırılır. Kuruyan etler Taşköprü sarımsaklı çimen (çemen) hamuruyla sıvanır.
+#### Çimen (çemen) nedir, pastırmaya ne katar?
+Çimen (tescil belgesindeki adıyla çemen); doğal çemen unu (buyotu), su, Taşköprü sarımsağı, kırmızı toz biber, kimyon ve kaya tuzunun harmanlanmasıyla hazırlanan özel bir kaplamadır.
+Bu geleneksel çimen, pastırmaya dengeli bir tuzluluk ve buram buram Taşköprü sarımsağı aroması kazandırır. Aynı zamanda etin havayla temasını keserek kurumasını ve bozulmasını önlemeye yardımcı olur.
 #### Kastamonu pastırması coğrafi işaretli mi?
 Evet. Kastamonu Pastırması, üretim aşamalarının bölgeye has iklim ve zanaat geleneğiyle yürütülmesi sebebiyle mahreç işareti olarak tescillidir (Tescil No: 711). Coğrafi sınır Kastamonu ilidir.
-Bu tescil, Ilgaz esintisinde doğal kurutma yöntemini ve dünyaca ünlü Taşköprü sarımsağı kullanımını koruma altına alır.
+Bu tescil, Ilgaz esintisinde güneşte kurutma yöntemini ve dünyaca ünlü Taşköprü sarımsağı kullanımını koruma altına alır.
 #### Çimenağa'nın pastırma hikâyesi nedir?
-Çimenağa'nın hikâyesi 1927 yılında, Kastamonu'nun Devrekani ilçesinde pastırma ustalığına adım atan aile büyüklerimizle başladı. Dört nesildir aktarılan bu zanaatta eti seçmekten tuzlamaya, sayvanda rüzgarı beklemekten çemen sürmeye kadar her adımı dedelerimizden gördüğümüz geleneksel yöntemlerle sürdürüyoruz.
+Çimenağa'nın hikâyesi 1927 yılında, Kastamonu'nun Devrekani ilçesinde pastırma ustalığına adım atan aile büyüklerimizle başladı. Aile büyüklerimizden devraldığımız bu zanaatta eti seçmekten tuzlamaya, sayvanda rüzgarı beklemekten çimen sürmeye kadar her adımı dedelerimizden gördüğümüz geleneksel yöntemlerle sürdürüyoruz.
 Pastırma aceleye gelmeyen bir emektir; lezzeti doğallığında ve sabırla beklemesindedir.
 #### Pastırma nasıl tüketilir?
-Kastamonu pastırması kahvaltılarda elde incecik dilimlenerek çiğ olarak, sahanda hafifçe ısıtılarak veya yumurtayla pişirilerek tüketilir. Ayrıca geleneksel taş fırın pidesinde, güveçte kuru fasulyede ve çıtır paçanga böreğinde benzersiz bir lezzet derinliği sunar.
+Kastamonu pastırması kahvaltılarda elde incecik dilimlenerek çiğ olarak, sahanda hafifçe ısıtılarak veya yumurtayla pişirilerek tüketilir. Ayrıca pidede, güveçte kuru fasulyede ve çıtır paçanga böreğinde benzersiz bir lezzet derinliği sunar.
 
 ### Pastırma Nasıl Dilimlenir ve Saklanır?
 - **URL:** https://cimenagapastirma.com/makaleler/pastirma-nasil-dilimlenir-ve-saklanir.html
 - **Özet:** Kastamonu pastırması, liflerinin aksi yönünde keskin bir pastırma bıçağıyla ortalama 0,75 mm tül inceliğinde dilimlenir. Açılan pastırma hava almayacak şekilde yağlı kâğıt ve streç filme sarılarak buzdolabının orta raflarında veya kapaklı cam kapta saklanmalıdır.
 #### Pastırma nasıl dilimlenir?
 Kastamonu pastırmasının en belirgin alametifarikası, 'tül gibi' elde incecik doğranabilmesidir. Pastırma tahtaya yatırılır ve et liflerinin gidiş yönüne dik (liflerin aksi yönünde), keskin bir pastırma bıçağı veya satırıyla hafif kaydırma hareketiyle kesilir.
-İnce dilimleme (yaklaşık 0,75 mm), pastırmanın ağızda yağ gibi erimesini sağlar, çiğnenmesini kolaylaştırır ve Taşköprü sarımsaklı çemenin lezzetini damağa dengeli dağıtır. Kalın dilimlendiğinde etin lezzet dengesi bozulur. Evde dilimlerken bıçağın çok keskin olması ve tek hamlede dilimin çıkarılması en önemli püf noktasıdır.
+İnce dilimleme (yaklaşık 0,75 mm), pastırmanın ağızda yağ gibi erimesini sağlar, çiğnenmesini kolaylaştırır ve Taşköprü sarımsaklı çimenin lezzetini damağa dengeli dağıtır. Kalın dilimlendiğinde etin lezzet dengesi bozulur. Evde dilimlerken bıçağın çok keskin olması ve tek hamlede dilimin çıkarılması en önemli püf noktasıdır.
 #### Pastırma buzdolabında nasıl saklanır?
-Vakumlu ambalajı açılmamış pastırma, ambalaj üzerindeki tavsiye edilen tarihe kadar buzdolabında (+2 ila +4 °C) tazeliğini güvenle muhafaza eder. Vakumu açıldıktan sonra ise etin doğrudan hava ile teması kesilmelidir; çünkü dilimlenmiş pastırma yüzey alanı geniş olduğu için açıkta kaldığında kurur ve rengi koyulaşır.
+Vakumlu ambalajı açılmamış pastırma, ambalaj üzerindeki tavsiye edilen tarihe kadar buzdolabında, ambalaj üzerindeki saklama koşullarına uygun biçimde saklanır. Vakumu açıldıktan sonra ise etin doğrudan hava ile teması kesilmelidir; çünkü dilimlenmiş pastırma yüzey alanı geniş olduğu için açıkta kaldığında kurur ve rengi koyulaşır.
 Açılan pastırmayı önce gıdaya uygun yağlı kâğıda sarıp ardından hava geçirmeyecek biçimde streç filmle kaplamak veya hava sızdırmaz cam bir saklama kabına yerleştirmek tazeliğini korumanın en pratik yoludur.
-Pastırmayı buzdolabının sıcaklığı sürekli değişen kapak rafları yerine, sıcaklığı daha dengeli olan orta ve alt raflarında tutmak önerilir. Ayrıca kapaklı kap kullanımı, pastırmanın karakteristik çemen aromasının dolaptaki süt, tereyağı ve tatlı gibi diğer gıdalara geçmesini engeller.
+Pastırmayı buzdolabının sıcaklığı sürekli değişen kapak rafları yerine, sıcaklığı daha dengeli olan orta ve alt raflarında tutmak önerilir. Ayrıca kapaklı kap kullanımı, pastırmanın karakteristik çimen aromasının dolaptaki süt, tereyağı ve tatlı gibi diğer gıdalara geçmesini engeller.
 #### Pastırma dondurucuda saklanır mı?
-Pastırma tuzlama, Ilgaz esintisinde doğal kurutma ve çemenleme aşamalarından geçmiş fermente ve dayanıklı bir şarküteri ürünü olduğu için normal şartlarda derin dondurucuya ihtiyaç duymaz.
+Pastırma tuzlama, Ilgaz esintisinde güneşte kurutma ve çimenleme aşamalarından geçmiş kurutulmuş ve çimenle kaplanmış bir et ürünüdür; saklama koşulları için ambalaj üzerindeki talimata uyun.
 Ancak uzun süreli muhafaza için dondurmak isterseniz, tek seferde tüketeceğiniz porsiyonlara ayırıp hava almayacak şekilde dondurabilirsiniz. Tüketmeden önce oda sıcaklığında hızlıca değil, buzdolabı bölmesinde yavaşça çözdürülmesi etin lezzetini ve dokusunu korur.
-#### Pastırmanın çemeni sıyrılmalı mı?
-Kastamonu pastırmasının lezzet derinliği, Taşköprü sarımsağı ve baharatlardan oluşan doğal çemen tabakasından gelir. Çemen, aynı zamanda etin kurumasını önleyen doğal bir zırhtır.
-Hafif lezzet arayanlar dilimlerken dış çemeni kısmen sıyırabilir; ancak geleneksel lezzeti tam hissetmek için pastırmanın ince dilimlenerek çemeniyle birlikte tüketilmesi tavsiye edilir.
+#### Pastırmanın çimeni (çemen) sıyrılmalı mı?
+Kastamonu pastırmasının lezzet derinliği, Taşköprü sarımsağı ve baharatlardan oluşan doğal çimen tabakasından gelir. Çimen, aynı zamanda etin kurumasını önleyen doğal bir zırhtır.
+Hafif lezzet arayanlar dilimlerken dış çimeni kısmen sıyırabilir; ancak geleneksel lezzeti tam hissetmek için pastırmanın ince dilimlenerek çimeniyle birlikte tüketilmesi tavsiye edilir.
 

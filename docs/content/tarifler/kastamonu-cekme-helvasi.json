@@ -1,0 +1,40 @@
+{
+  "slug": "kastamonu-cekme-helvasi",
+  "title": "Kastamonu Çekme Helvası",
+  "description": "Kavrulmuş un, tereyağı ve pudra şekerinin tel tel lifleşene kadar yoğrulup preslenmesiyle hazırlanan geleneksel Kastamonu çekme helvası tarifi.",
+  "answer": "Kastamonu çekme helvası 8 kişilik olup unun tereyağında kokusu çıkana kadar ağır ateşte kavrulması, ardından pudra şekeri ile tel tel olana dek yoğrulup tepsiye sıkıca preslenmesiyle yapılır. Küçük küpler halinde dilimlendikten sonra oda sıcaklığında ağızda dağılan bir kıvama kavuşur.",
+  "prep_min": 20,
+  "cook_min": 35,
+  "yield": "8 kişilik",
+  "ingredients": [
+    "3 su bardağı buğday unu",
+    "150 g tereyağı",
+    "1,5 su bardağı pudra şekeri",
+    "2 yemek kaşığı sade yağ",
+    "1 çay bardağı dövülmüş Antep fıstığı (üzeri için)"
+  ],
+  "steps": [
+    "Geniş ve kalın tabanlı bir tencereye unu alın, kısık ateşte tahta kaşıkla sürekli karıştırarak unun çiğ kokusu çıkıp rengi hafif krem rengi olana kadar yaklaşık 25-30 dakika kavurun.",
+    "Ayrı bir tavada tereyağını ve sade yağı eritin, köpüğünü alıp kavrulan unun üzerine azar azar dökerek iyice harmanlayın.",
+    "Tencereyi ocaktan alın ve harcın ilk sıcaklığının çıkması için 5 dakika havalandırarak ılıtın.",
+    "Ilıyan unlu karışıma elenmiş pudra şekerini ekleyin.",
+    "Karışımı ellerinizle veya tezgâhta bastırarak, şeker unla tamamen özleşip tel tel ayrışan lifli kıvama gelene kadar 10-15 dakika sabırla yoğurun.",
+    "Kare veya dikdörtgen bir borcamın tabanına dövülmüş fıstıkları serpin, helva harcını üzerine döküp düzleştirin.",
+    "Üzerine düz tabanlı bir bardak bastırarak helvayı sıkıca presleyin ve sıkıştırın.",
+    "Bıçakla küçük kare lokmalar halinde dilimleyin, tamamen soğuduktan sonra tepsiden çıkarıp servis edin."
+  ],
+  "tips": [
+    "Unun rengini karartmamak, sadece çiğ un kokusu gidene kadar sabırla kısık ateşte kavurmak çekme helvasının açık rengini ve pamuksu dokusunu korur.",
+    "Pudra şekerini çok sıcakken eklerseniz şeker erir ve helva tel tel olmaz; harcın ılık olması püf noktasıdır."
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-20",
+  "modified": "2026-10-20",
+  "category": "Tatlı",
+  "image": "kastamonu-cekme-helvasi.webp",
+  "image_alt": "Kastamonu çekme helvası küpleri, bakır tepside dövülmüş Antep fıstığı garnitürüyle",
+  "image_w": 1200,
+  "image_h": 896
+}

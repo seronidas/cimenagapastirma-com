@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sayfa Bulunamadı veya Taşındı | Çimenağa Tarifler</title>
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#14284b">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function() {
+  var path = window.location.pathname.replace(/\/+$/, "");
+  var search = window.location.search;
+  var full = (path + search).toLowerCase();
+  var map = {"/kastamonu-cemenli-pastirma": "https://cimenagapastirma.com/makaleler/kastamonu-pastirmasi-nedir.html", "/kastamonu-pastirmali-ekmek": "https://cimenagapastirma.com/tarifler/pastirmali-pide.html", "/pastirma": "https://cimenagapastirma.com/#tarifler", "/sucuk": "https://cimenagapastirma.com/tarifler/sucuklu-yumurta.html", "/kastamonu-sucugu": "https://cimenagapastirma.com/tarifler/sucuklu-yumurta.html", "/sucuk/kastamonu-sucugu": "https://cimenagapastirma.com/tarifler/sucuklu-yumurta.html", "/taskopru-sarimsagi": "https://cimenagapastirma.com/makaleler/cemen-ve-taskopru-sarimsagi.html", "/siyez-urunleri": "https://cimenagapastirma.com/tarifler/siyez-bulgur-pilavi.html", "/helva-ve-tatlilar": "https://cimenagapastirma.com/tarifler/kastamonu-cekme-helvasi.html", "/helva-ve-tatlilar/v175grantep-fistikli": "https://cimenagapastirma.com/tarifler/kastamonu-cekme-helvasi.html", "/visne-receli": "https://cimenagapastirma.com/tarifler/visne-receli.html", "/recel-bal": "https://cimenagapastirma.com/tarifler/visne-receli.html", "/recel-bal/kureliden-bal-500gr": "https://cimenagapastirma.com/tarifler/visne-receli.html", "/kureliden-bal-500gr": "https://cimenagapastirma.com/tarifler/visne-receli.html", "/kureliden-bal-850gr": "https://cimenagapastirma.com/tarifler/visne-receli.html", "/kahve": "https://cimenagapastirma.com/tarifler/dibek-kahvesi.html", "/dovme-tasdibek-7karisimli-osmanli-kahve": "https://cimenagapastirma.com/tarifler/dibek-kahvesi.html", "/dovme-tasdibek-7karisimli-osmanli-kahve2": "https://cimenagapastirma.com/tarifler/dibek-kahvesi.html", "/dovme-tasdibek-damla-sakizli-kahve": "https://cimenagapastirma.com/tarifler/dibek-kahvesi.html", "/hakkimizda": "https://cimenaga.com/hakkimizda.html"};
+  var target = map[path.toLowerCase()];
+
+  if (!target) {
+    if (full.indexOf("pastirmali-ekmek") !== -1 || full.indexOf("pastirmali-pide") !== -1 || full.indexOf("product_id=40") !== -1) {
+      target = "/tarifler/pastirmali-pide.html";
+    } else if (full.indexOf("cemenli-pastirma") !== -1 || full.indexOf("product_id=37") !== -1) {
+      target = "/makaleler/kastamonu-pastirmasi-nedir.html";
+    } else if (full.indexOf("pastirma") !== -1) {
+      target = "/#tarifler";
+    } else if (full.indexOf("sucuk") !== -1 || full.indexOf("product_id=34") !== -1) {
+      target = "/tarifler/sucuklu-yumurta.html";
+    } else if (full.indexOf("sarimsak") !== -1 || full.indexOf("cemen") !== -1) {
+      target = "/makaleler/cemen-ve-taskopru-sarimsagi.html";
+    } else if (full.indexOf("siyez") !== -1) {
+      target = "/tarifler/siyez-bulgur-pilavi.html";
+    } else if (full.indexOf("helva") !== -1 || /product_id=5[7-9]|product_id=6[0-2]/.test(full) || full.indexOf("fistikli") !== -1) {
+      target = "/tarifler/kastamonu-cekme-helvasi.html";
+    } else if (full.indexOf("visne") !== -1 || full.indexOf("recel") !== -1 || full.indexOf("bal") !== -1) {
+      target = "/tarifler/visne-receli.html";
+    } else if (full.indexOf("kahve") !== -1 || full.indexOf("dibek") !== -1 || /product_id=(9|10|11|12)/.test(full)) {
+      target = "/tarifler/dibek-kahvesi.html";
+    } else if (full.indexOf("checkout") !== -1 || full.indexOf("account") !== -1 || full.indexOf("cart") !== -1) {
+      target = "https://cimenaga.com/?ref=legacy_404";
+    } else if (full.indexOf("hakkimizda") !== -1 || full.indexOf("contact") !== -1) {
+      target = "https://cimenaga.com/hakkimizda.html";
+    }
+  }
+
+  if (target) {
+    window.location.replace(target);
+  }
+})();
+</script>
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="https://cimenaga.com/?ref=404_header"><img src="/assets/img/logo.png" alt="Çimenağa Pastırma" width="105" height="72"></a>
+<nav aria-label="Ana menü"><a href="/#tarifler">Tarifler</a><a href="/#makaleler">Makaleler</a><a href="https://cimenaga.com/urunlerimiz.html?ref=404_header">Ürünlerimiz</a><a class="shop" href="https://cimenaga.com/?ref=404_header">Mağaza</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+<p class="eyebrow">404 · Sayfa Bulunamadı</p>
+<h1>Sayfa Taşınmış veya Değişmiş Olabilir</h1>
+<p class="answer">Aradığınız içerik Çimenağa'nın yenilenen geleneksel tarif ve gastronomi portalına taşınmış olabilir. Aşağıdaki popüler tariflerimize göz atabilir veya ana sayfaya dönebilirsiniz.</p>
+<p class="actions"><a class="btn" href="/#tarifler">Tarifleri Gör</a><a class="btn ghost" href="https://cimenaga.com/?ref=404_hero">Mağazaya Git</a></p>
+</div></section>
+<section class="block"><div class="wrap">
+<p class="eyebrow">Mutfaktan</p>
+<h2 class="head">Öne Çıkan Tarifler</h2>
+<ul class="cards"><li class="card"><a href="/tarifler/pastirmali-pide.html"><div class="pic"><img src="/assets/img/pastirmali-pide.webp" alt="Erimiş kaşar peynirli ve ince dilim pastırmalı açık pide (örnek görsel)" width="1200" height="896" loading="lazy"></div><div class="txt"><p class="tag">Ana yemek</p><h3>Pastırmalı Pide</h3><p class="info"><span>55 dk</span><span>6 kişilik</span></p></div></a></li><li class="card"><a href="/tarifler/sucuklu-yumurta.html"><div class="pic"><img src="/assets/img/sucuklu-yumurta.webp" alt="Sahanda sucuk dilimleri ve göz yumurta (örnek görsel)" width="1200" height="896" loading="lazy"></div><div class="txt"><p class="tag">Kahvaltı</p><h3>Sucuklu Yumurta</h3><p class="info"><span>10 dk</span><span>2 kişilik</span></p></div></a></li><li class="card"><a href="/tarifler/siyez-bulgur-pilavi.html"><div class="pic"><img src="/assets/img/siyez-bulgur-pilavi.webp" alt="Kastamonu usulü siyez bulgur pilavı, karamelize soğan, tereyağı ve pastırma eşliğinde" width="1200" height="896" loading="lazy"></div><div class="txt"><p class="tag">Ana yemek</p><h3>Siyez Bulgur Pilavı</h3><p class="info"><span>35 dk</span><span>4 kişilik</span></p></div></a></li><li class="card"><a href="/tarifler/kastamonu-cekme-helvasi.html"><div class="pic"><img src="/assets/img/kastamonu-cekme-helvasi.webp" alt="Kastamonu çekme helvası küpleri, bakır tepside dövülmüş Antep fıstığı garnitürüyle" width="1200" height="896" loading="lazy"></div><div class="txt"><p class="tag">Tatlı</p><h3>Kastamonu Çekme Helvası</h3><p class="info"><span>55 dk</span><span>8 kişilik</span></p></div></a></li><li class="card"><a href="/tarifler/visne-receli.html"><div class="pic"><img src="/assets/img/visne-receli.webp" alt="Kristal reçellik kasede parlak vişne reçeli, cam kavanoz ve taze vişneler" width="1200" height="896" loading="lazy"></div><div class="txt"><p class="tag">Kahvaltılık</p><h3>Geleneksel Vişne Reçeli</h3><p class="info"><span>55 dk</span><span>6 kişilik</span></p></div></a></li><li class="card"><a href="/tarifler/dibek-kahvesi.html"><div class="pic"><img src="/assets/img/dibek-kahvesi.webp" alt="Bakır fincan zarfında bol köpüklü taş dibek kahvesi, bakır cezve ve çekme helva" width="1200" height="896" loading="lazy"></div><div class="txt"><p class="tag">İçecek</p><h3>Bol Köpüklü Taş Dibek Kahvesi</h3><p class="info"><span>12 dk</span><span>2 kişilik</span></p></div></a></li></ul>
+</div></section>
+</main>
+<footer><div class="wrap">
+<div><p><b>Çimenağa Pastırma &amp; Sucuk</b></p>
+<p>1927'den beri Kastamonu</p></div>
+<p class="fnav"><a href="/#tarifler">Tarifler</a> <a href="/#makaleler">Makaleler</a> <a href="/iade-ve-iptal-politikasi.html">İptal ve İade Koşulları</a> <a href="https://cimenaga.com/?ref=404_footer">cimenaga.com</a></p>
+</div></footer>
+</body>
+</html>

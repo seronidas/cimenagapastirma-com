@@ -8,29 +8,29 @@
       "h2": "Pastırma nasıl dilimlenir?",
       "paras": [
         "Kastamonu pastırmasının en belirgin alametifarikası, 'tül gibi' elde incecik doğranabilmesidir. Pastırma tahtaya yatırılır ve et liflerinin gidiş yönüne dik (liflerin aksi yönünde), keskin bir pastırma bıçağı veya satırıyla hafif kaydırma hareketiyle kesilir.",
-        "İnce dilimleme (yaklaşık 0,75 mm), pastırmanın ağızda yağ gibi erimesini sağlar, çiğnenmesini kolaylaştırır ve Taşköprü sarımsaklı çemenin lezzetini damağa dengeli dağıtır. Kalın dilimlendiğinde etin lezzet dengesi bozulur. Evde dilimlerken bıçağın çok keskin olması ve tek hamlede dilimin çıkarılması en önemli püf noktasıdır."
+        "İnce dilimleme (yaklaşık 0,75 mm), pastırmanın ağızda yağ gibi erimesini sağlar, çiğnenmesini kolaylaştırır ve Taşköprü sarımsaklı çimenin lezzetini damağa dengeli dağıtır. Kalın dilimlendiğinde etin lezzet dengesi bozulur. Evde dilimlerken bıçağın çok keskin olması ve tek hamlede dilimin çıkarılması en önemli püf noktasıdır."
       ]
     },
     {
       "h2": "Pastırma buzdolabında nasıl saklanır?",
       "paras": [
-        "Vakumlu ambalajı açılmamış pastırma, ambalaj üzerindeki tavsiye edilen tarihe kadar buzdolabında (+2 ila +4 °C) tazeliğini güvenle muhafaza eder. Vakumu açıldıktan sonra ise etin doğrudan hava ile teması kesilmelidir; çünkü dilimlenmiş pastırma yüzey alanı geniş olduğu için açıkta kaldığında kurur ve rengi koyulaşır.",
+        "Vakumlu ambalajı açılmamış pastırma, ambalaj üzerindeki tavsiye edilen tarihe kadar buzdolabında, ambalaj üzerindeki saklama koşullarına uygun biçimde saklanır. Vakumu açıldıktan sonra ise etin doğrudan hava ile teması kesilmelidir; çünkü dilimlenmiş pastırma yüzey alanı geniş olduğu için açıkta kaldığında kurur ve rengi koyulaşır.",
         "Açılan pastırmayı önce gıdaya uygun yağlı kâğıda sarıp ardından hava geçirmeyecek biçimde streç filmle kaplamak veya hava sızdırmaz cam bir saklama kabına yerleştirmek tazeliğini korumanın en pratik yoludur.",
-        "Pastırmayı buzdolabının sıcaklığı sürekli değişen kapak rafları yerine, sıcaklığı daha dengeli olan orta ve alt raflarında tutmak önerilir. Ayrıca kapaklı kap kullanımı, pastırmanın karakteristik çemen aromasının dolaptaki süt, tereyağı ve tatlı gibi diğer gıdalara geçmesini engeller."
+        "Pastırmayı buzdolabının sıcaklığı sürekli değişen kapak rafları yerine, sıcaklığı daha dengeli olan orta ve alt raflarında tutmak önerilir. Ayrıca kapaklı kap kullanımı, pastırmanın karakteristik çimen aromasının dolaptaki süt, tereyağı ve tatlı gibi diğer gıdalara geçmesini engeller."
       ]
     },
     {
       "h2": "Pastırma dondurucuda saklanır mı?",
       "paras": [
-        "Pastırma tuzlama, Ilgaz esintisinde doğal kurutma ve çemenleme aşamalarından geçmiş fermente ve dayanıklı bir şarküteri ürünü olduğu için normal şartlarda derin dondurucuya ihtiyaç duymaz.",
+        "Pastırma tuzlama, Ilgaz esintisinde güneşte kurutma ve çimenleme aşamalarından geçmiş kurutulmuş ve çimenle kaplanmış bir et ürünüdür; saklama koşulları için ambalaj üzerindeki talimata uyun.",
         "Ancak uzun süreli muhafaza için dondurmak isterseniz, tek seferde tüketeceğiniz porsiyonlara ayırıp hava almayacak şekilde dondurabilirsiniz. Tüketmeden önce oda sıcaklığında hızlıca değil, buzdolabı bölmesinde yavaşça çözdürülmesi etin lezzetini ve dokusunu korur."
       ]
     },
     {
-      "h2": "Pastırmanın çemeni sıyrılmalı mı?",
+      "h2": "Pastırmanın çimeni (çemen) sıyrılmalı mı?",
       "paras": [
-        "Kastamonu pastırmasının lezzet derinliği, Taşköprü sarımsağı ve baharatlardan oluşan doğal çemen tabakasından gelir. Çemen, aynı zamanda etin kurumasını önleyen doğal bir zırhtır.",
-        "Hafif lezzet arayanlar dilimlerken dış çemeni kısmen sıyırabilir; ancak geleneksel lezzeti tam hissetmek için pastırmanın ince dilimlenerek çemeniyle birlikte tüketilmesi tavsiye edilir."
+        "Kastamonu pastırmasının lezzet derinliği, Taşköprü sarımsağı ve baharatlardan oluşan doğal çimen tabakasından gelir. Çimen, aynı zamanda etin kurumasını önleyen doğal bir zırhtır.",
+        "Hafif lezzet arayanlar dilimlerken dış çimeni kısmen sıyırabilir; ancak geleneksel lezzeti tam hissetmek için pastırmanın ince dilimlenerek çimeniyle birlikte tüketilmesi tavsiye edilir."
       ]
     }
   ],
@@ -44,7 +44,7 @@
   "published": "2026-10-11",
   "modified": "2026-10-15",
   "image": "pastirma-nasil-dilimlenir-ve-saklanir.webp",
-  "image_alt": "Pastırma ustasının keskin bıçakla tahta üzerinde Kastamonu pastırmasını kağıt gibi ince dilimlemesi",
+  "image_alt": "Tahta üzerinde keskin bıçakla ince dilimlenen pastırma (örnek görsel)",
   "image_w": 1200,
   "image_h": 896
 }

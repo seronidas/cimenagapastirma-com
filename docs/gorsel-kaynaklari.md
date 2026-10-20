@@ -17,7 +17,12 @@ Görseller 1200x896 çözünürlükte, optimize edilmiş WebP formatındadır.
 | assets/img/pastirma-nasil-dilimlenir-ve-saklanir.webp | Makale | Pastırma ustasının özel bıçakla pastırmayı tül gibi ince dilimlemesi ve yağlı kağıt | Özgün gastronomi görseli (1200x896) |
 | assets/img/cemen-ve-taskopru-sarimsagi.webp | Makale | Taşköprü sarımsağı başları, havanda çemen ezmesi, çemen tozu ve baharatlar | Özgün gastronomi görseli (1200x896) |
 | assets/img/kastamonu-cografi-isaretli-lezzetleri.webp | Makale | Kastamonu pastırması, Taşköprü sarımsağı, Tosya pirinci, Siyez ve çekme helva | Özgün gastronomi görseli (1200x896) |
+| assets/img/siyez-bulgur-pilavi.webp | Tarif | Kastamonu usulü siyez bulgur pilavı, karamelize soğan, tereyağı ve pastırma eşliğinde | Özgün gastronomi görseli (1200x896) |
+| assets/img/kastamonu-cekme-helvasi.webp | Tarif | Kastamonu çekme helvası küpleri, bakır tepside dövülmüş Antep fıstığı garnitürüyle | Özgün gastronomi görseli (1200x896) |
+| assets/img/visne-receli.webp | Tarif | Kristal reçellik kasede parlak vişne reçeli, cam kavanoz ve taze vişneler | Özgün gastronomi görseli (1200x896) |
+| assets/img/dibek-kahvesi.webp | Tarif | Bakır fincan zarfında bol köpüklü taş dibek kahvesi, bakır cezve ve çekme helva | Özgün gastronomi görseli (1200x896) |
 | assets/img/pastirma.webp | Ürün | cimenaga.com orijinal ürün fotoğrafı | Orijinal ürün |
 | assets/img/sucuk.webp | Ürün | cimenaga.com orijinal ürün fotoğrafı | Orijinal ürün |
 | assets/img/pide.webp | Ürün | cimenaga.com orijinal ürün fotoğrafı | Orijinal ürün |
 | assets/img/logo.png | Logo | Çimenağa 1927 resmî logosu | Kurumsal logo |
+

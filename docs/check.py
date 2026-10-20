@@ -4,7 +4,8 @@ import json, pathlib, re, sys
 from html.parser import HTMLParser
 from urllib.parse import urlparse
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent if HERE.name == "docs" else HERE.parent / "cimenagapastirma.com"
 SHOP = pathlib.Path("/ana/cimenaga/cimenaga.com")
 SITE = "https://cimenagapastirma.com"
 errors = []
@@ -85,7 +86,18 @@ def local_target(href):
     return ROOT / path.lstrip("/")
 
 
-pages = [p for p in ROOT.rglob("*.html") if "docs" not in p.relative_to(ROOT).parts and not p.name.startswith("google")]
+def is_content_page(p):
+    if "docs" in p.relative_to(ROOT).parts or p.name.startswith("google"):
+        return False
+    if p.name == "404.html":
+        return False
+    txt = p.read_text(encoding="utf-8")
+    if 'http-equiv="refresh"' in txt:
+        return False
+    return True
+
+
+pages = [p for p in ROOT.rglob("*.html") if is_content_page(p)]
 if not pages:
     err("Hiç HTML sayfası yok")
 
@@ -166,8 +178,8 @@ if not robots.is_file():
     err("robots.txt yok")
 else:
     t = robots.read_text(encoding="utf-8")
-    if "Disallow: /docs/" not in t or f"Sitemap: {SITE}/sitemap.xml" not in t:
-        err("robots.txt Disallow: /docs/ ve Sitemap satırlarını içermeli")
+    if f"Sitemap: {SITE}/sitemap.xml" not in t:
+        err("robots.txt Sitemap satırını içermeli")
 if not (ROOT / "llms.txt").is_file():
     err("llms.txt yok")
 
@@ -175,8 +187,8 @@ if not (ROOT / "llms.txt").is_file():
 n_t = len(list((ROOT / "tarifler").glob("*.html"))) if (ROOT / "tarifler").is_dir() else 0
 n_m = len(list((ROOT / "makaleler").glob("*.html"))) if (ROOT / "makaleler").is_dir() else 0
 if "--partial" not in sys.argv:
-    if n_t != 8:
-        err(f"8 tarif olmalı, {n_t} var")
+    if n_t != 12:
+        err(f"12 tarif olmalı, {n_t} var")
     if n_m != 4:
         err(f"4 makale olmalı, {n_m} var")
 

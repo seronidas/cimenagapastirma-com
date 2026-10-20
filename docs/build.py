@@ -5,8 +5,9 @@ import json
 import pathlib
 import re
 
-ROOT = pathlib.Path(__file__).resolve().parent.parent
-CONTENT = ROOT / "docs" / "content"
+HERE = pathlib.Path(__file__).resolve().parent
+ROOT = HERE.parent if HERE.name == "docs" else HERE.parent / "cimenagapastirma.com"
+CONTENT = HERE / "content"
 SITE = "https://cimenagapastirma.com"
 SHOP = "https://cimenaga.com"
 PRODUCTS = {
@@ -22,8 +23,8 @@ PRODIMG = {
 TRUST_BADGES = {
     "kastamonu-pastirmasi": [
         "🏛️ <b>Tescil No: 711</b> Mahreç İşareti",
-        "⛰️ <b>Ilgaz Esintisi</b> 60 Gün Doğal Kurutma",
-        "🧄 <b>Taşköprü Sarımsaklı</b> Çemen",
+        "⛰️ <b>Ilgaz Esintisi</b> Çimenağa'da ~60 Gün Olgunlaşma",
+        "🧄 <b>Taşköprü Sarımsaklı</b> Çimen (Çemen)",
         "❄️ <b>Soğuk Zincir</b> Vakumlu Taze Kargo",
     ],
     "kastamonu-sucugu": [
@@ -32,9 +33,9 @@ TRUST_BADGES = {
         "❄️ <b>Soğuk Zincir</b> Vakumlu Taze Kargo",
     ],
     "kastamonu-pastirmali-ince-pide": [
-        "🥖 <b>Taş Fırın</b> İnce Pide (Pastırmalı Ekmek)",
-        "❄️ <b>Dondurulmuş</b> Fırına Hazır",
-        "🥩 <b>Bol Pastırma</b> ve Harç Dolgusu",
+        "🥖 <b>Odun Fırınında</b> İnce Pide (Pastırmalı Ekmek)",
+        "❄️ <b>Dondurulmuş</b> Gönderilir",
+        "🥩 <b>Kastamonu Pastırmalı</b> İnce Hamur",
     ],
 }
 ORG = {"@type": "Organization", "name": "Çimenağa Pastırma & Sucuk", "url": SHOP}
@@ -107,8 +108,9 @@ def img_size(rel, default=(1600, 900)):
 
 
 def page(rel, title, desc, body, ld, image=None):
-    otype = "article" if rel.startswith("makaleler/") else "website"
-    og = f'\n<meta property="og:image" content="{SITE}/assets/img/{e(image)}">' if image else ""
+    otype = "article" if rel.startswith(("makaleler/", "tarifler/")) else "website"
+    image = image or "hero.webp"
+    og = f'\n<meta property="og:image" content="{SITE}/assets/img/{e(image)}">'
     gver = '\n<meta name="google-site-verification" content="googleef782f67a7468754">' if rel == "index.html" else ""
     scripts = "\n".join(ld_tag(d) for d in ld)
     return f"""<!doctype html>
@@ -121,7 +123,8 @@ def page(rel, title, desc, body, ld, image=None):
 <link rel="canonical" href="{url_of(rel)}">{gver}
 <meta property="og:type" content="{otype}">
 <meta property="og:site_name" content="Çimenağa Tarifler">
-<meta name="twitter:card" content="summary">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:locale" content="tr_TR">
 <meta property="og:title" content="{e(title, quote=True)}">
 <meta property="og:description" content="{e(desc, quote=True)}">
@@ -164,6 +167,8 @@ def thumb(d):
 
 
 def cta(d, pfx="tarif"):
+    if not d.get("products"):
+        return ""
     out = []
     for s in d["products"]:
         name, label = PRODUCTS[s]  # bilinmeyen slug KeyError verir
@@ -175,7 +180,7 @@ def cta(d, pfx="tarif"):
                    f'<div class="buy-txt"><p class="eyebrow">Çimenağa · 1927\'den beri</p><h2>{e(name)}</h2>'
                    f'{badges_html}'
                    f'<a class="btn" href="{SHOP}/urun/{s}.html?ref={pfx}&amp;kaynak={d["slug"]}&amp;konum=cta">{e(label)} <span aria-hidden="true">→</span></a></div></div>')
-    return '<section class="cta"><div class="wrap">' + "".join(out) + "</div></section>"
+    return '<section class="cta"><div class="wrap">' + "".join(out) + "</div></section>" if out else ""
 
 
 def sticky_bar(d, pfx="tarif"):
@@ -395,8 +400,8 @@ def build_index(recipes, articles):
         for s in PRODUCTS)
     body = f"""<section class="hero"><div class="wrap">
 <p class="eyebrow">1927'den beri · Kastamonu</p>
-<h1>Kastamonu Pastırması ve Sucuğu ile Tarifler</h1>
-<p class="answer">Kastamonu pastırması ve sucuğuyla yapılan tarifler ve bu lezzetler hakkında makaleler. Çimenağa'nın hikâyesi 1927'den beri uzanır; ürünler <a href="{SHOP}/?ref=tarif_anasayfa_hero">cimenaga.com</a> adresindedir.</p>
+<h1>Kastamonu Pastırması, Sucuğu ve Geleneksel Lezzet Tarifleri</h1>
+<p class="answer">Kastamonu pastırması, fermente sucuğu, ata tohumu siyez bulguru ve meşhur çekme helvası gibi yöresel tatlarla hazırlanan tarifler ve gastronomi makaleleri. Çimenağa'nın hikâyesi 1927'den beri uzanır; ürünler <a href="{SHOP}/?ref=tarif_anasayfa_hero">cimenaga.com</a> adresindedir.</p>
 <p class="actions"><a class="btn" href="#tarifler">Tarifleri Gör</a><a class="btn ghost" href="{SHOP}/?ref=tarif_anasayfa_hero">Mağazaya Git</a></p>
 </div></section>
 <section class="block dark shop"><div class="wrap">
@@ -415,9 +420,166 @@ def build_index(recipes, articles):
 <h2 id="makaleler" class="head">Makaleler</h2>
 <ul class="cards">{ac}</ul>
 </div></section>"""
-    write("index.html", page("index.html", "Kastamonu Pastırması ve Sucuğu Tarifleri | Çimenağa Tarifler",
-                             "Kastamonu pastırması ve sucuğuyla yapılan tarifler ve Kastamonu'nun lezzetleri hakkında makaleler.",
+    write("index.html", page("index.html", "Kastamonu Pastırması, Sucuğu ve Yöresel Tarifler | Çimenağa Tarifler",
+                             "Kastamonu pastırması, sucuğu, siyez bulguru ve yöresel lezzetlerle hazırlanan geleneksel tarifler ve gastronomi makaleleri.",
                              body, ld))
+
+
+REDIRECTS = {
+    "kastamonu-cemenli-pastirma": f"{SITE}/makaleler/kastamonu-pastirmasi-nedir.html",
+    "Kastamonu-Pastirmali-Ekmek": f"{SITE}/tarifler/pastirmali-pide.html",
+    "kastamonu-pastirmali-ekmek": f"{SITE}/tarifler/pastirmali-pide.html",
+    "pastirma": f"{SITE}/#tarifler",
+    "sucuk": f"{SITE}/tarifler/sucuklu-yumurta.html",
+    "Sucuk": f"{SITE}/tarifler/sucuklu-yumurta.html",
+    "Kastamonu-Sucugu": f"{SITE}/tarifler/sucuklu-yumurta.html",
+    "kastamonu-sucugu": f"{SITE}/tarifler/sucuklu-yumurta.html",
+    "Sucuk/Kastamonu-Sucugu": f"{SITE}/tarifler/sucuklu-yumurta.html",
+    "taskopru-sarimsagi": f"{SITE}/makaleler/cemen-ve-taskopru-sarimsagi.html",
+    "siyez-urunleri": f"{SITE}/tarifler/siyez-bulgur-pilavi.html",
+    "helva-ve-tatlilar": f"{SITE}/tarifler/kastamonu-cekme-helvasi.html",
+    "helva-ve-tatlilar/v175grantep-fistikli": f"{SITE}/tarifler/kastamonu-cekme-helvasi.html",
+    "visne-receli": f"{SITE}/tarifler/visne-receli.html",
+    "recel-bal": f"{SITE}/tarifler/visne-receli.html",
+    "recel-bal/kureliden-bal-500gr": f"{SITE}/tarifler/visne-receli.html",
+    "kureliden-bal-500gr": f"{SITE}/tarifler/visne-receli.html",
+    "kureliden-bal-850gr": f"{SITE}/tarifler/visne-receli.html",
+    "kahve": f"{SITE}/tarifler/dibek-kahvesi.html",
+    "dovme-tasdibek-7karisimli-osmanli-kahve": f"{SITE}/tarifler/dibek-kahvesi.html",
+    "dovme-tasdibek-7karisimli-osmanli-kahve2": f"{SITE}/tarifler/dibek-kahvesi.html",
+    "dovme-tasdibek-damla-sakizli-kahve": f"{SITE}/tarifler/dibek-kahvesi.html",
+    "hakkimizda": f"{SHOP}/hakkimizda.html",
+}
+
+
+def build_redirects():
+    for src, dst in REDIRECTS.items():
+        rel = f"{src}/index.html"
+        html = f"""<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<title>Yönlendiriliyorsunuz... | Çimenağa</title>
+<meta http-equiv="refresh" content="0; url={dst}">
+<link rel="canonical" href="{dst}">
+<meta name="robots" content="noindex, follow">
+<script>window.location.replace("{dst}");</script>
+</head>
+<body>
+<p>Yönlendiriliyorsunuz... Lütfen bekleyin. <a href="{dst}">Otomatik yönlendirilmezseniz buraya tıklayın</a>.</p>
+</body>
+</html>
+"""
+        write(rel, html)
+
+
+def build_404(recipes, articles):
+    rel = "404.html"
+    featured = ["pastirmali-pide", "sucuklu-yumurta", "siyez-bulgur-pilavi", "kastamonu-cekme-helvasi", "visne-receli", "dibek-kahvesi"]
+    cards_html = "".join(
+        card("tarifler", recipes[s], recipes[s].get("category") or "Tarif", recipe_meta(recipes[s]))
+        for s in featured if s in recipes
+    )
+
+    redirect_map_json = json.dumps({
+        "/kastamonu-cemenli-pastirma": f"{SITE}/makaleler/kastamonu-pastirmasi-nedir.html",
+        "/kastamonu-pastirmali-ekmek": f"{SITE}/tarifler/pastirmali-pide.html",
+        "/pastirma": f"{SITE}/#tarifler",
+        "/sucuk": f"{SITE}/tarifler/sucuklu-yumurta.html",
+        "/kastamonu-sucugu": f"{SITE}/tarifler/sucuklu-yumurta.html",
+        "/sucuk/kastamonu-sucugu": f"{SITE}/tarifler/sucuklu-yumurta.html",
+        "/taskopru-sarimsagi": f"{SITE}/makaleler/cemen-ve-taskopru-sarimsagi.html",
+        "/siyez-urunleri": f"{SITE}/tarifler/siyez-bulgur-pilavi.html",
+        "/helva-ve-tatlilar": f"{SITE}/tarifler/kastamonu-cekme-helvasi.html",
+        "/helva-ve-tatlilar/v175grantep-fistikli": f"{SITE}/tarifler/kastamonu-cekme-helvasi.html",
+        "/visne-receli": f"{SITE}/tarifler/visne-receli.html",
+        "/recel-bal": f"{SITE}/tarifler/visne-receli.html",
+        "/recel-bal/kureliden-bal-500gr": f"{SITE}/tarifler/visne-receli.html",
+        "/kureliden-bal-500gr": f"{SITE}/tarifler/visne-receli.html",
+        "/kureliden-bal-850gr": f"{SITE}/tarifler/visne-receli.html",
+        "/kahve": f"{SITE}/tarifler/dibek-kahvesi.html",
+        "/dovme-tasdibek-7karisimli-osmanli-kahve": f"{SITE}/tarifler/dibek-kahvesi.html",
+        "/dovme-tasdibek-7karisimli-osmanli-kahve2": f"{SITE}/tarifler/dibek-kahvesi.html",
+        "/dovme-tasdibek-damla-sakizli-kahve": f"{SITE}/tarifler/dibek-kahvesi.html",
+        "/hakkimizda": f"{SHOP}/hakkimizda.html",
+    }, ensure_ascii=False)
+
+    html = f"""<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sayfa Bulunamadı veya Taşındı | Çimenağa Tarifler</title>
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#14284b">
+<link rel="stylesheet" href="/assets/style.css">
+<script>
+(function() {{
+  var path = window.location.pathname.replace(/\\/+$/, "");
+  var search = window.location.search;
+  var full = (path + search).toLowerCase();
+  var map = {redirect_map_json};
+  var target = map[path.toLowerCase()];
+
+  if (!target) {{
+    if (full.indexOf("pastirmali-ekmek") !== -1 || full.indexOf("pastirmali-pide") !== -1 || full.indexOf("product_id=40") !== -1) {{
+      target = "/tarifler/pastirmali-pide.html";
+    }} else if (full.indexOf("cemenli-pastirma") !== -1 || full.indexOf("product_id=37") !== -1) {{
+      target = "/makaleler/kastamonu-pastirmasi-nedir.html";
+    }} else if (full.indexOf("pastirma") !== -1) {{
+      target = "/#tarifler";
+    }} else if (full.indexOf("sucuk") !== -1 || full.indexOf("product_id=34") !== -1) {{
+      target = "/tarifler/sucuklu-yumurta.html";
+    }} else if (full.indexOf("sarimsak") !== -1 || full.indexOf("cemen") !== -1) {{
+      target = "/makaleler/cemen-ve-taskopru-sarimsagi.html";
+    }} else if (full.indexOf("siyez") !== -1) {{
+      target = "/tarifler/siyez-bulgur-pilavi.html";
+    }} else if (full.indexOf("helva") !== -1 || /product_id=5[7-9]|product_id=6[0-2]/.test(full) || full.indexOf("fistikli") !== -1) {{
+      target = "/tarifler/kastamonu-cekme-helvasi.html";
+    }} else if (full.indexOf("visne") !== -1 || full.indexOf("recel") !== -1 || full.indexOf("bal") !== -1) {{
+      target = "/tarifler/visne-receli.html";
+    }} else if (full.indexOf("kahve") !== -1 || full.indexOf("dibek") !== -1 || /product_id=(9|10|11|12)/.test(full)) {{
+      target = "/tarifler/dibek-kahvesi.html";
+    }} else if (full.indexOf("checkout") !== -1 || full.indexOf("account") !== -1 || full.indexOf("cart") !== -1) {{
+      target = "{SHOP}/?ref=legacy_404";
+    }} else if (full.indexOf("hakkimizda") !== -1 || full.indexOf("contact") !== -1) {{
+      target = "{SHOP}/hakkimizda.html";
+    }}
+  }}
+
+  if (target) {{
+    window.location.replace(target);
+  }}
+}})();
+</script>
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="{SHOP}/?ref=404_header"><img src="/assets/img/logo.png" alt="Çimenağa Pastırma" width="105" height="72"></a>
+<nav aria-label="Ana menü"><a href="/#tarifler">Tarifler</a><a href="/#makaleler">Makaleler</a><a href="{SHOP}/urunlerimiz.html?ref=404_header">Ürünlerimiz</a><a class="shop" href="{SHOP}/?ref=404_header">Mağaza</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+<p class="eyebrow">404 · Sayfa Bulunamadı</p>
+<h1>Sayfa Taşınmış veya Değişmiş Olabilir</h1>
+<p class="answer">Aradığınız içerik Çimenağa'nın yenilenen geleneksel tarif ve gastronomi portalına taşınmış olabilir. Aşağıdaki popüler tariflerimize göz atabilir veya ana sayfaya dönebilirsiniz.</p>
+<p class="actions"><a class="btn" href="/#tarifler">Tarifleri Gör</a><a class="btn ghost" href="{SHOP}/?ref=404_hero">Mağazaya Git</a></p>
+</div></section>
+<section class="block"><div class="wrap">
+<p class="eyebrow">Mutfaktan</p>
+<h2 class="head">Öne Çıkan Tarifler</h2>
+<ul class="cards">{cards_html}</ul>
+</div></section>
+</main>
+<footer><div class="wrap">
+<div><p><b>Çimenağa Pastırma &amp; Sucuk</b></p>
+<p>1927'den beri Kastamonu</p></div>
+<p class="fnav"><a href="/#tarifler">Tarifler</a> <a href="/#makaleler">Makaleler</a> <a href="/iade-ve-iptal-politikasi.html">İptal ve İade Koşulları</a> <a href="{SHOP}/?ref=404_footer">cimenaga.com</a></p>
+</div></footer>
+</body>
+</html>
+"""
+    write(rel, html)
 
 
 def load(sub):
@@ -440,6 +602,8 @@ def main():
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
           + "".join(f"<url><loc>{url_of(r)}</loc><lastmod>{mods[r]}</lastmod></url>\n" for r in rels) + "</urlset>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /docs/\nSitemap: {SITE}/sitemap.xml\n")
+    build_redirects()
+    build_404(recipes, articles)
 
     # llms.txt
     lines = [
@@ -478,14 +642,14 @@ def main():
         f"- **Politika Sayfaları:** {SITE}/iade-ve-iptal-politikasi.html ve {SHOP}/iade-ve-iptal-politikasi.html",
         "",
         "## Kastamonu Pastırmasının Ayırt Edici Nitelikleri",
-        "1. **Doğal Sayvan Kurutması:** Fırınlama veya suni sıcak hava kullanılmaz; Ilgaz Dağı esintisini alan üstü kapalı çatı katlarında (sayvan) güneşte ve rüzgarda 60 gün boyunca aceleye getirilmeden doğal kurutulur.",
-        "2. **Taşköprü Sarımsaklı Çemen:** Tescil belgesine göre çemen bileşimi: %60 su, %30 çemen unu (buyotu), %8 Taşköprü sarımsağı, %1 kırmızı toz biber, %0,5 kimyon, %0,5 tuz.",
+        "1. **Sayvanda Kurutma:** Ilgaz Dağı esintisini alan üstü kapalı çatılarda (sayvan) güneşte kurutulur. TürkPatent tescil belgesinde kurutma süresi 30 gün olarak tanımlanır; Çimenağa kendi uygulamasında daha lezzetli olması için pastırmayı daha uzun, yaklaşık 60 gün olgunlaştırır.",
+        "2. **Taşköprü Sarımsaklı Çimen (Çemen):** Tescil belgesine göre çimen (çemen) bileşimi: %60 su, %30 çemen unu (buyotu), %8 Taşköprü sarımsağı, %1 kırmızı toz biber, %0,5 kimyon, %0,5 tuz.",
         "3. **Geleneksel İnce Dilimleme:** Keskin pastırma bıçağı ve satırla elde ortalama 0,75 mm tül inceliğinde dilimlenir.",
         "",
         "## Ürünler",
-        f"- [Kastamonu Pastırması]({SHOP}/urun/kastamonu-pastirmasi.html?ref=llms_full): Coğrafi işaretli, el dilimi, Taşköprü sarımsaklı çemenle kaplı, 1 kg.",
-        f"- [Kastamonu Sucuğu]({SHOP}/urun/kastamonu-sucugu.html?ref=llms_full): Geleneksel fermente dana sucuğu, 1 kg.",
-        f"- [Kastamonu Pastırmalı İnce Pide]({SHOP}/urun/kastamonu-pastirmali-ince-pide.html?ref=llms_full): Taş fırında pişirilip dondurulmuş yöresel pastırmalı ekmek.",
+        f"- [Kastamonu Pastırması]({SHOP}/urun/kastamonu-pastirmasi.html?ref=llms_full): Coğrafi işaretli, el dilimi, Taşköprü sarımsaklı çimenle kaplı, 500 g ve katları (1 kg: 2.800 ₺).",
+        f"- [Kastamonu Sucuğu]({SHOP}/urun/kastamonu-sucugu.html?ref=llms_full): Geleneksel fermente dana sucuğu, 500 g ve katları (1 kg: 2.000 ₺).",
+        f"- [Kastamonu Pastırmalı İnce Pide]({SHOP}/urun/kastamonu-pastirmali-ince-pide.html?ref=llms_full): Birlikte çalışılan odun fırınında pişirilip dondurulmuş gönderilen yöresel pastırmalı ekmek (adet 350 ₺).",
         "",
         "## Tarifler (Tam Metin)",
     ]

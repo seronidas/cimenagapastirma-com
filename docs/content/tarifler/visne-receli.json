@@ -1,0 +1,39 @@
+{
+  "slug": "visne-receli",
+  "title": "Geleneksel Vişne Reçeli",
+  "description": "Taze vişnelerin şekerde bekletilip limon suyuyla berrak ve tam kıvamında kaynatıldığı geleneksel Kastamonu usulü ev yapımı vişne reçeli tarifi.",
+  "answer": "Geleneksel vişne reçeli 6 kişilik olup 1 kg çekirdeksiz vişne ve 1 kg toz şekerin bir gece bekletilip kendi suyunu salmasıyla başlar. Orta ateşte köpükleri alınarak 30 dakika kaynatılır, ocaktan inmeye 5 dakika kala taze limon suyu eklenerek parlak kıvam elde edilir.",
+  "prep_min": 20,
+  "cook_min": 35,
+  "yield": "6 kişilik",
+  "ingredients": [
+    "1 kg taze vişne (ayıklanmış ve çekirdeksiz)",
+    "1 kg toz şeker",
+    "1 yemek kaşığı taze sıkılmış limon suyu",
+    "1 çay kaşığı tereyağı (köpük önleyici)"
+  ],
+  "steps": [
+    "Vişneleri bol suda yıkayıp saplarını ayıklayın ve çekirdeklerini çıkarın.",
+    "Geniş reçel tenceresine bir kat vişne bir kat toz şeker olacak şekilde yerleştirin.",
+    "Tencerenin kapağını kapatıp vişnelerin suyunu tamamen salması için en az 8-10 saat bekletin.",
+    "Sulanan tencereyi ocağa alın, içine tereyağını ekleyin ve orta ateşte kaynamaya bırakın.",
+    "Kaynama sırasında yüzeyde oluşan köpükleri kevgirle düzenli olarak temizleyin.",
+    "Vişneler parlayıp şerbeti koyulaşana kadar yaklaşık 25-30 dakika orta ateşte pişirin.",
+    "Ocaktan almadan 5 dakika önce taze limon suyunu ekleyip reçeli bir taşım daha kaynatın.",
+    "Kıvam testi için soğuk bir tabağa birkaç damla reçel damlatın; dağılmıyorsa tencereyi ocaktan alın ve sıcakken temiz cam kavanozlara paylaştırıp kapatın."
+  ],
+  "tips": [
+    "Pişirme esnasında atılan bir çay kaşığı tereyağı reçelin taşmasını ve aşırı köpürmesini önler, berraklık kazandırır.",
+    "Kastamonu kahvaltı sofralarında taze köy ekmeği ve pastırma yanında tatlı-tuzlu dengesi için vazgeçilmez bir eşlikçidir."
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-20",
+  "modified": "2026-10-20",
+  "category": "Kahvaltılık",
+  "image": "visne-receli.webp",
+  "image_alt": "Kristal reçellik kasede parlak vişne reçeli, cam kavanoz ve taze vişneler",
+  "image_w": 1200,
+  "image_h": 896
+}

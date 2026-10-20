@@ -1,8 +1,8 @@
 {
   "slug": "kastamonu-cografi-isaretli-lezzetleri",
   "title": "Kastamonu'nun Coğrafi İşaretli Lezzetleri",
-  "description": "Kastamonu'nun zengin gastronomi mirası: Taşköprü sarımsağı, Kastamonu pastırması, Tosya pirinci ve asırlık yöresel tatlar.",
-  "answer": "Coğrafi işaret, yöreye özgü geleneksel üretim yöntemlerini ve ürün kalitesini koruyan tescildir. Kastamonu; Taşköprü sarımsağı, Kastamonu pastırması, Tosya pirinci ve siyez bulguru gibi onlarca tescilli değeriyle Türkiye'nin en köklü mutfak miraslarından birini barındırır.",
+  "description": "Kastamonu'nun zengin gastronomi mirası: Taşköprü sarımsağı, Kastamonu pastırması, Tosya pirinci, Siyez bulguru ve asırlık yöresel tatlar.",
+  "answer": "Coğrafi işaret, yöreye özgü geleneksel üretim yöntemlerini ve ürün kalitesini koruyan tescildir. Kastamonu; Taşköprü sarımsağı, Kastamonu pastırması, Tosya pirinci, Siyez bulguru ve Kastamonu çekme helvası gibi onlarca tescilli değeriyle Türkiye'nin en köklü mutfak miraslarından birini barındırır.",
   "sections": [
     {
       "h2": "Coğrafi işaret nedir?",
@@ -13,13 +13,13 @@
     {
       "h2": "Taşköprü sarımsağının özelliği nedir?",
       "paras": [
-        "Taşköprü Sarımsağı menşe adı tesciline sahiptir. Bölgenin toprak yapısı ve mikrokliması sayesinde yüksek kuru madde oranına, zengin kükürt bileşiklerine ve güçlü bir aromaya sahiptir. Uzun süre bozulmadan saklanabilmesi ve çemene kattığı eşsiz tat ile pastırmanın vazgeçilmez tamamlayıcısıdır."
+        "Taşköprü Sarımsağı menşe adı tesciline sahiptir. Bölgenin toprak yapısı ve mikrokliması sayesinde yüksek kuru madde oranına, zengin kükürt bileşiklerine ve güçlü bir aromaya sahiptir. Uzun süre bozulmadan saklanabilmesi ve çimene kattığı eşsiz tat ile pastırmanın vazgeçilmez tamamlayıcısıdır."
       ]
     },
     {
       "h2": "Kastamonu pastırmasını farklı kılan nedir?",
       "paras": [
-        "Kastamonu Pastırması mahreç işareti tesciliyle korunan köklü bir lezzettir. Fırınlama yerine Ilgaz Dağı esintisini alan sayvanlarda 60 gün boyunca güneşte ve rüzgarda aceleye getirilmeden doğal olarak kurutulur. Taşköprü sarımsaklı çemenle kaplanır ve elde tül inceliğinde dilimlenir."
+        "Kastamonu Pastırması mahreç işareti tesciliyle korunan köklü bir lezzettir. Ilgaz Dağı esintisini alan sayvanlarda güneşte kurutulur; tescil belgesinde kurutma süresi 30 gün olarak tanımlanır. Taşköprü sarımsaklı çimenle kaplanır ve elde tül inceliğinde dilimlenir."
       ]
     },
     {
@@ -29,24 +29,38 @@
       ]
     },
     {
+      "h2": "Kastamonu Siyez bulgurunun farkı nedir?",
+      "paras": [
+        "Kastamonu Siyez Bulguru, geçmişi 10-12 bin yıl öncesine uzanan ata tohumu siyez buğdayından (Triticum monococcum) taş değirmenlerde geleneksel usulle işlenerek elde edilir. Tescilli menşe adı korumasındadır. Yüksek lif, protein, mineral ve düşük glisemik indeksiyle besin değeri çok yüksektir; kendine has fındıksı aromasıyla siyez bulgur pilavında eşsiz bir lezzet sunar."
+      ]
+    },
+    {
+      "h2": "Kastamonu çekme helvasının özelliği nedir?",
+      "paras": [
+        "Kastamonu Çekme Helvası, saray mutfağından günümüze miras kalan ve Kastamonu ile özdeşleşmiş bir tatlıdır. Tereyağında sabırla kavrulan buğday ununun ağartılmış şeker ve pudra şekeriyle mermer tezgâhlarda lif lif çekilerek tel tel açılmasıyla yapılır. Preslenip küp lokmalar halinde kesilir; ağızda pamuk gibi anında eriyen dokusuyla meşhurdur."
+      ]
+    },
+    {
       "h2": "Kastamonu'nun diğer öne çıkan tescilli lezzetleri nelerdir?",
       "paras": [
-        "Kastamonu mutfağı bereketli toprakları ve asırlık zanaatkarlarıyla büyük bir zenginliğe sahiptir. Pastırma, sarımsak ve pirincin yanı sıra Kastamonu Siyez Bulguru, Kastamonu Susamsız Simidi, Çekme Helvası, Kestane Balı, Devrekani Hindi Banduması, Devrekani Cırık Tatlısı, Daday Etli Ekmeği, Pınarbaşı Kara Çorbası ve Taşköprü Kuyu Kebabı kentin en bilinen gastronomi değerleri arasındadır.",
+        "Kastamonu mutfağı bereketli toprakları ve asırlık zanaatkarlarıyla büyük bir zenginliğe sahiptir. Pastırma, sarımsak, pirinç ve siyezin yanı sıra Kastamonu Simidi, Kestane Balı, Devrekani Hindi Banduması, Devrekani Cırık Tatlısı, Daday Etli Ekmeği, Pınarbaşı Kara Çorbası ve Taşköprü Kuyu Kebabı kentin en bilinen gastronomi değerleri arasındadır.",
         "Çimenağa olarak 1927'den beri Kastamonu Devrekani merkezli üretimimizde bu eşsiz mirasın pastırma ve sucuk geleneğini ilk günkü titizlikle sürdürüyoruz."
       ]
     }
   ],
   "related": [
-    "pastirmali-yumurta",
-    "pastirmali-kuru-fasulye"
+    "siyez-bulgur-pilavi",
+    "kastamonu-cekme-helvasi",
+    "pastirmali-kuru-fasulye",
+    "pastirmali-yumurta"
   ],
   "products": [
     "kastamonu-pastirmasi"
   ],
   "published": "2026-10-11",
-  "modified": "2026-10-15",
+  "modified": "2026-10-20",
   "image": "kastamonu-cografi-isaretli-lezzetleri.webp",
-  "image_alt": "Kastamonu'nun coğrafi işaretli lezzetleri: Kastamonu pastırması, Taşköprü sarımsağı, Tosya pirinci ve çekme helva",
+  "image_alt": "Kastamonu'nun coğrafi işaretli lezzetlerini temsil eden görsel: pastırma, sarımsak, pirinç, siyez ve helva",
   "image_w": 1200,
   "image_h": 896
 }

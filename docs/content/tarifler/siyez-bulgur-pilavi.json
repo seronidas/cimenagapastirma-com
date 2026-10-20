@@ -1,0 +1,42 @@
+{
+  "slug": "siyez-bulgur-pilavi",
+  "title": "Siyez Bulgur Pilavı",
+  "description": "Kastamonu'nun 12 bin yıllık ata tohumu siyez bulguru, tereyağı, soğan ve et suyuyla kısık ateşte demlenen geleneksel siyez pilavı tarifi.",
+  "answer": "Kastamonu usulü siyez bulgur pilavı 4 kişilik olup 10 dakika hazırlık ve 25 dakika pişirme gerektirir. Yemeklik doğranmış soğan tereyağında pembeleştirilir, yıkanıp süzülen siyez bulguru eklenip 2-3 dakika kavrulur; sıcak et suyu ve tuz eklenerek kısık ateşte suyunu çekene kadar pişirilip 15 dakika demlendirilir.",
+  "prep_min": 10,
+  "cook_min": 25,
+  "yield": "4 kişilik",
+  "ingredients": [
+    "2 su bardağı Kastamonu siyez bulguru",
+    "1 adet orta boy kuru soğan",
+    "2 yemek kaşığı tereyağı",
+    "1 yemek kaşığı zeytinyağı",
+    "3,5 su bardağı sıcak et suyu",
+    "1 tatlı kaşığı tuz",
+    "1 çay kaşığı karabiber"
+  ],
+  "steps": [
+    "Siyez bulgurunu bol suda yıkayıp süzün.",
+    "Geniş tabanlı pilav tenceresinde tereyağı ve zeytinyağını ısıtın.",
+    "Yemeklik ince doğranmış kuru soğanı ekleyip pembeleşene kadar kavurun.",
+    "Süzülen siyez bulgurunu tencereye ilave edin ve tahta kaşıkla 2-3 dakika kokusu çıkana kadar kavurun.",
+    "Sıcak et suyunu, tuz ve karabiberi ekleyip bir kez karıştırın.",
+    "Tencerenin kapağını kapatın, kaynamaya başlayınca ocağın altını en kısığa getirin.",
+    "Bulgurlar suyunu tamamen çekene kadar yaklaşık 20-25 dakika pişirin.",
+    "Ocaktan aldıktan sonra tencerenin kapağının altına kâğıt havlu koyup 15 dakika demlendirin ve sıcak servis edin."
+  ],
+  "tips": [
+    "Siyez bulguru sert kabuklu ve lifli bir ata buğdayı olduğu için klasik pilavlık bulgura göre biraz daha fazla su çeker; tane tane olması için kısık ateşte demlenmesi önemlidir.",
+    "Kastamonu geleneksel sofralarında pilavın üzerine birkaç dilim tavada çevrilmiş Kastamonu pastırması eklenerek servis edilmesi yaygın bir gurme ritüelidir."
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-20",
+  "modified": "2026-10-20",
+  "category": "Ana yemek",
+  "image": "siyez-bulgur-pilavi.webp",
+  "image_alt": "Kastamonu usulü siyez bulgur pilavı, karamelize soğan, tereyağı ve pastırma eşliğinde",
+  "image_w": 1200,
+  "image_h": 896
+}

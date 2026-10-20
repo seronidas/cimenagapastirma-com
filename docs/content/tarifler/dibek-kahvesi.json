@@ -1,0 +1,38 @@
+{
+  "slug": "dibek-kahvesi",
+  "title": "Bol Köpüklü Taş Dibek Kahvesi",
+  "description": "Taş dibeklerde dövülerek öğütülmüş kahve çekirdekleri ve aromatik baharatlarla bakır cezvede ağır ateşte pişen kadifemsi dibek kahvesi tarifi.",
+  "answer": "Köpüklü taş dibek kahvesi fincan başına 1 tepeleme tatlı kaşığı taze dibek kahvesi ve soğuk içme suyu ile bakır cezvede hazırlanır. Kısık ateşte karıştırmadan kabarmaya bırakılır, ilk köpüğü fincanlara paylaştırılıp bir taşım daha kaynatılarak servis edilir.",
+  "prep_min": 5,
+  "cook_min": 7,
+  "yield": "2 kişilik",
+  "ingredients": [
+    "2 tatlı kaşığı tepeleme taş dibek kahvesi",
+    "2 fincan soğuk içme suyu",
+    "1 tatlı kaşığı toz şeker (isteğe bağlı)"
+  ],
+  "steps": [
+    "Bakır cezveye her fincan için bir fincan soğuk içme suyu koyun.",
+    "Üzerine fincan başına bir tepeleme tatlı kaşığı taş dibek kahvesi ve arzuya göre şekeri ilave edin.",
+    "Ocağa almadan önce kahve ve su tamamen karışana kadar kaşıkla 15-20 saniye çırpın.",
+    "Cezveyi en kısık ateşteki ocağa yerleştirin ve ocağa koyduktan sonra kesinlikle karıştırmayın.",
+    "Kahve ağır ağır ısınıp kenarlardan yükselmeye ve koyu kadifemsi bir köpük oluşturmaya başlayana kadar bekleyin.",
+    "Kabaran köpüğü kaşık yardımıyla fincanlara eşit olarak paylaştırın.",
+    "Cezveyi tekrar ateşe koyun, bir taşım daha yükselince kalan kahveyi fincanların kenarından yavaşça dökün.",
+    "Yanında soğuk su ve Kastamonu çekme helvası ile ikram edin."
+  ],
+  "tips": [
+    "Dibek kahvesi taş dibeklerde tokmakla dövüldüğü için Türk kahvesine göre daha iri tanelidir ve kıvamı daha yoğundur; kısık ateşte ağır pişirilmesi aromaların açığa çıkması için şarttır.",
+    "Çeşme suyu yerine buzdolabından çıkmış soğuk içme suyu kullanmak köpük yoğunluğunu iki katına çıkarır."
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-20",
+  "modified": "2026-10-20",
+  "category": "İçecek",
+  "image": "dibek-kahvesi.webp",
+  "image_alt": "Bakır fincan zarfında bol köpüklü taş dibek kahvesi, bakır cezve ve çekme helva",
+  "image_w": 1200,
+  "image_h": 896
+}
