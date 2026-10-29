@@ -1,0 +1,75 @@
+{
+  "slug": "iyi-pastirma-nasil-anlasilir",
+  "title": "İyi Pastırma Nasıl Anlaşılır?",
+  "description": "İyi pastırmayı renginden, dokusundan, kokusundan, çemeninden ve etiketinden nasıl ayırt edersiniz? Pastırma alırken bakılması gerekenler.",
+  "answer": "İyi pastırmanın kesiti baştan sona aynı tonda kırmızı-bordo renktedir, ortası yaş ya da koyulaşmış görünmez. Dilim esnektir, kırılmaz ve ufalanmaz; çemen eti ince ve eşit bir tabakayla sarar. Kokusu ekşi değil, sarımsak ve baharat kokusudur. Paketinde üretici bilgisi ve son tüketim tarihi bulunur.",
+  "sections": [
+    {
+      "h2": "İyi Pastırmanın Rengi Nasıl Olmalı?",
+      "paras": [
+        "Kesit baştan sona aynı tonda kırmızı-bordo olmalıdır. Kenarlarda kuruma nedeniyle biraz daha koyu bir halka görülebilir, bu normaldir.",
+        "Ortası parlak, ıslak ya da kenarlardan belirgin biçimde farklı renkteyse kuruma tamamlanmamış olabilir. Gri, yeşilimsi ya da kahverengileşmiş lekeler ise bayatlama veya bozulma işaretidir."
+      ]
+    },
+    {
+      "h2": "İyi Pastırmanın Dokusu Nasıl Olur?",
+      "paras": [
+        "İnce dilim kâğıt gibi bükülür, yırtılmaz ve ufalanmaz. Aşırı sert, kuru ve kırılgan bir dilim fazla kurumayı; yapışkan ve sulu bir dilim ise yetersiz kurumayı gösterir.",
+        "Dilimde kalın zar ya da sinir olmamalıdır; bunlar etin iyi temizlenmediğini gösterir. Pastırma ağızda lif lif dağılmalı, sakız gibi çiğnenmemelidir. Dokunun dilim kalınlığıyla ilişkisini [Pastırma Nasıl Dilimlenir ve Saklanır?](/makaleler/pastirma-nasil-dilimlenir-ve-saklanir.html) yazımızda anlattık."
+      ]
+    },
+    {
+      "h2": "Pastırmanın Kokusu ve Tadı Nasıl Olmalı?",
+      "paras": [
+        "Pastırma çemen, sarımsak ve baharat kokmalıdır. Ekşi, küf ya da amonyak benzeri bir koku bozulma işaretidir.",
+        "Tadı dengeli tuzlu olmalıdır. Tuz, etin kendi lezzetini ve çemen aromasını bastıracak kadar baskın olmamalıdır."
+      ]
+    },
+    {
+      "h2": "Çemeni Kalın Olan Pastırma Daha mı İyidir?",
+      "paras": [
+        "Hayır. Pastırma genellikle çemeniyle birlikte tartılarak satılır; çemenin ete oranla aşırı kalın olması, ödediğiniz fiyatın bir kısmının çemene gitmesi demektir. İyi pastırmada çemen eti ince ve eşit bir tabakayla sarar, kurumuş ve sıkıdır, dilimlerken kopup dökülmez.",
+        "Tescil belgesine göre Kastamonu pastırmasının çemeni yüzde 60 su, yüzde 30 çemen unu, yüzde 8 Taşköprü sarımsağı, yüzde 1 kırmızı toz biber, yüzde 0,5 kimyon ve yüzde 0,5 tuzdan oluşur. Ayrıntılar için [Çimen (Çemen) ve Taşköprü Sarımsağı](/makaleler/cemen-ve-taskopru-sarimsagi.html) yazımıza bakabilirsiniz."
+      ]
+    },
+    {
+      "h2": "Pastırma Alırken Etikette Nelere Bakılmalı?",
+      "paras": [
+        "Etikette üreticinin adı ve adresi, işletme kayıt veya onay numarası, üretim ve son tüketim tarihi ile saklama koşulları yer almalıdır. Vakumlu ambalaj hava almamış ve şişmemiş olmalıdır.",
+        "Kastamonu pastırmasında coğrafi işaret (mahreç işareti) amblemi ve 711 tescil numarası ürünün tescilli usulle üretildiğini gösterir. Tescilin ayrıntıları [Kastamonu'nun Coğrafi İşaretli Ürünleri](https://cimenaga.com/kastamonu-cografi-isaretli-urunleri.html) sayfamızda ve [tescil belgesinde](https://cimenaga.com/kastamonu-cografi-isaretli-pastirma-belgesi.pdf) yer alıyor."
+      ]
+    },
+    {
+      "h2": "Kalıp Pastırma mı, Dilimlenmiş Pastırma mı Alınmalı?",
+      "paras": [
+        "Kalıp pastırma çemeniyle korunduğu için daha uzun dayanır. Dilimlendikten sonra kesit yüzeyi havayla temas eder, kurur ve renk değiştirir.",
+        "Kısa sürede tüketecekseniz taze dilimlenmiş pastırma, daha uzun saklayacaksanız kalıp pastırma almak daha doğrudur."
+      ]
+    }
+  ],
+  "related": [
+    "pastirmali-yumurta",
+    "pastirmali-tost",
+    "pastirmali-borek"
+  ],
+  "related_articles": [
+    "pastirma-nasil-dilimlenir-ve-saklanir",
+    "cemen-ve-taskopru-sarimsagi",
+    "kastamonu-ve-kayseri-pastirmasi-farki"
+  ],
+  "products": [
+    "kastamonu-pastirmasi"
+  ],
+  "published": "2026-10-29",
+  "modified": "2026-10-29",
+  "image": "pastirma.webp",
+  "image_alt": "Çemen kaplı Kastamonu pastırması ve ince dilimler",
+  "image_w": 900,
+  "image_h": 900,
+  "sources": [
+    {
+      "name": "Kastamonu Pastırması mahreç işareti tescil belgesi (TürkPatent, Tescil No: 711, PDF)",
+      "url": "https://cimenaga.com/kastamonu-cografi-isaretli-pastirma-belgesi.pdf"
+    }
+  ]
+}

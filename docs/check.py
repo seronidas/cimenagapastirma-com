@@ -189,8 +189,8 @@ n_m = len(list((ROOT / "makaleler").glob("*.html"))) if (ROOT / "makaleler").is_
 if "--partial" not in sys.argv:
     if n_t != 12:
         err(f"12 tarif olmalı, {n_t} var")
-    if n_m != 4:
-        err(f"4 makale olmalı, {n_m} var")
+    if n_m != 8:
+        err(f"8 makale olmalı, {n_m} var")
 
 if errors:
     print("\n".join(errors))

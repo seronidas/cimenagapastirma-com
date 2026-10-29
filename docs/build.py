@@ -38,7 +38,9 @@ TRUST_BADGES = {
         "🥩 <b>Kastamonu Pastırmalı</b> İnce Hamur",
     ],
 }
-ORG = {"@type": "Organization", "name": "Çimenağa Pastırma & Sucuk", "url": SHOP}
+# Ana alan adı cimenaga.com; @id oradaki LocalBusiness kaydıyla aynı varlığı gösterir.
+ORG = {"@type": "Organization", "@id": f"{SHOP}/#business", "name": "Çimenağa Pastırma & Sucuk",
+       "url": SHOP + "/", "sameAs": [SHOP + "/", "https://www.instagram.com/cimenagapastirma/"]}
 e = html.escape
 
 
@@ -51,6 +53,32 @@ def dur(minutes):
     h, m = divmod(minutes, 60)
     parts = ([f"{h} sa"] if h else []) + ([f"{m} dk"] if m or not h else [])
     return " ".join(parts)
+
+
+LINK = re.compile(r"\[([^\]]+)\]\((/[^)\s]*|https://cimenaga\.com/[^)\s]*)\)")
+
+
+def rich(text):
+    """Paragraf metni: kaçış uygular, [metin](/yol veya https://cimenaga.com/...) biçimini bağlantıya çevirir."""
+    return LINK.sub(lambda m: f'<a href="{m.group(2)}">{m.group(1)}</a>', e(text))
+
+
+def plain(text):
+    return LINK.sub(r"\1", text)
+
+
+def table_html(t):
+    head = "".join(f'<th scope="col">{e(h)}</th>' for h in t["head"])
+    rows = "".join("<tr>" + f'<th scope="row">{e(r[0])}</th>' + "".join(f'<td data-label="{e(h, quote=True)}">{e(c)}</td>' for h, c in zip(t["head"][1:], r[1:])) + "</tr>" for r in t["rows"])
+    note = f'<p class="tbl-note">{e(t["note"])}</p>' if t.get("note") else ""
+    return (f'<div class="tbl"><table><caption>{e(t["caption"])}</caption><thead><tr>{head}</tr></thead>'
+            f"<tbody>{rows}</tbody></table></div>{note}")
+
+
+def table_md(t):
+    out = [f"**{t['caption']}**", "", "| " + " | ".join(t["head"]) + " |", "|" + "---|" * len(t["head"])]
+    out += ["| " + " | ".join(r) + " |" for r in t["rows"]]
+    return out + ([t["note"]] if t.get("note") else [])
 
 
 def yld(s):
@@ -130,6 +158,8 @@ def page(rel, title, desc, body, ld, image=None):
 <meta property="og:description" content="{e(desc, quote=True)}">
 <meta property="og:url" content="{url_of(rel)}">{og}
 <meta name="theme-color" content="#14284b">
+<link rel="icon" href="/assets/img/icon.png?v=1">
+<link rel="apple-touch-icon" href="/assets/img/icon.png?v=1">
 <link rel="stylesheet" href="/assets/style.css">
 {scripts}
 </head>
@@ -144,7 +174,7 @@ def page(rel, title, desc, body, ld, image=None):
 <footer><div class="wrap">
 <div><p><b>Çimenağa Pastırma &amp; Sucuk</b></p>
 <p>1927'den beri Kastamonu</p></div>
-<p class="fnav"><a href="/#tarifler">Tarifler</a> <a href="/#makaleler">Makaleler</a> <a href="/iade-ve-iptal-politikasi.html">İptal ve İade Koşulları</a> <a href="{SHOP}/?ref=tarif_footer">cimenaga.com</a></p>
+<p class="fnav"><a href="/#tarifler">Tarifler</a> <a href="/#makaleler">Makaleler</a> <a href="/iade-ve-iptal-politikasi.html">İptal ve İade Koşulları</a> <a href="{SHOP}/?ref=tarif_footer">cimenaga.com</a> <a href="https://www.instagram.com/cimenagapastirma/" rel="me noopener">Instagram</a></p>
 </div></footer>
 </body>
 </html>
@@ -282,7 +312,7 @@ def build_recipe(d):
     return rel
 
 
-def build_article(d, recipes):
+def build_article(d, recipes, articles):
     rel = f'makaleler/{d["slug"]}.html'
     bc_ld, bc_html = crumbs([("Ana sayfa", SITE + "/"), (d["title"], url_of(rel))])
     art = {
@@ -293,8 +323,10 @@ def build_article(d, recipes):
     }
     if d.get("image"):
         art["image"] = f'{SITE}/assets/img/{d["image"]}'
+    if d.get("sources"):
+        art["citation"] = [x["url"] for x in d["sources"]]
     faq_items = [
-        {"@type": "Question", "name": s["h2"], "acceptedAnswer": {"@type": "Answer", "text": " ".join(s["paras"])}}
+        {"@type": "Question", "name": s["h2"], "acceptedAnswer": {"@type": "Answer", "text": " ".join(plain(p) for p in s["paras"])}}
         for s in d.get("sections", []) if s.get("h2", "").strip().endswith("?")
     ]
     ld = [art, bc_ld]
@@ -304,11 +336,18 @@ def build_article(d, recipes):
             "@type": "FAQPage",
             "mainEntity": faq_items
         })
-    secs = "".join(f'<h2>{e(s["h2"])}</h2>' + "".join(f"<p>{e(p)}</p>" for p in s["paras"]) for s in d["sections"])
+    secs = "".join(f'<h2>{e(s["h2"])}</h2>' + "".join(f"<p>{rich(p)}</p>" for p in s["paras"])
+                   + (table_html(s["table"]) if s.get("table") else "") for s in d["sections"])
+    if d.get("sources"):
+        secs += '<h2>Kaynaklar</h2><ul class="sources">' + "".join(
+            f'<li><a href="{e(x["url"], quote=True)}" rel="noopener">{e(x["name"])}</a></li>' for x in d["sources"]) + "</ul>"
     rel_html = ""
     if d["related"]:
         items = "".join(card("tarifler", recipes[s], recipes[s].get("category") or "Tarif", recipe_meta(recipes[s])) for s in d["related"])
-        rel_html = f'<section class="related"><div class="wrap"><h2>İlgili tarifler</h2><ul class="cards">{items}</ul></div></section>'
+        rel_html = f'<section class="related"><div class="wrap"><h2>İlgili Tarifler</h2><ul class="cards">{items}</ul></div></section>'
+    if d.get("related_articles"):
+        items = "".join(card("makaleler", articles[s], "Makale", f'<p class="desc">{e(articles[s]["description"])}</p>') for s in d["related_articles"])
+        rel_html = f'<section class="related"><div class="wrap"><h2>İlgili Makaleler</h2><ul class="cards">{items}</ul></div></section>' + rel_html
     body = f"""<div class="wrap">{bc_html}</div>
 <article>
 {figure(d)}
@@ -322,7 +361,10 @@ def build_article(d, recipes):
 {rel_html}
 {cta(d, "makale")}
 {sticky_bar(d, "makale")}"""
-    write(rel, page(rel, f'{d["title"]} | Çimenağa Tarifler', d["description"], body, ld, d.get("image")))
+    title = d.get("seo_title", d["title"])
+    if len(title) + len(" | Çimenağa Tarifler") <= 60:
+        title += " | Çimenağa Tarifler"
+    write(rel, page(rel, title, d["description"], body, ld, d.get("image")))
     return rel
 
 
@@ -401,12 +443,12 @@ def build_index(recipes, articles):
     body = f"""<section class="hero"><div class="wrap">
 <p class="eyebrow">1927'den beri · Kastamonu</p>
 <h1>Kastamonu Pastırması, Sucuğu ve Geleneksel Lezzet Tarifleri</h1>
-<p class="answer">Kastamonu pastırması, fermente sucuğu, ata tohumu siyez bulguru ve meşhur çekme helvası gibi yöresel tatlarla hazırlanan tarifler ve gastronomi makaleleri. Çimenağa'nın hikâyesi 1927'den beri uzanır; ürünler <a href="{SHOP}/?ref=tarif_anasayfa_hero">cimenaga.com</a> adresindedir.</p>
+<p class="answer">Kastamonu pastırması, fermente sucuğu, ata tohumu siyez bulguru ve Kastamonu çekme helvası gibi yöresel tatlarla hazırlanan tarifler ve gastronomi makaleleri. Çimenağa'nın hikâyesi 1927'den beri uzanır; ürünler <a href="{SHOP}/?ref=tarif_anasayfa_hero">cimenaga.com</a> adresindedir.</p>
 <p class="actions"><a class="btn" href="#tarifler">Tarifleri Gör</a><a class="btn ghost" href="{SHOP}/?ref=tarif_anasayfa_hero">Mağazaya Git</a></p>
 </div></section>
 <section class="block dark shop"><div class="wrap">
 <p class="eyebrow">Çimenağa</p>
-<h2 class="head">Ürünlerimizi cimenaga.com'dan satın alabilirsiniz</h2>
+<h2 class="head">Ürünlerimizi cimenaga.com'dan Satın Alabilirsiniz</h2>
 <ul class="cards">{prods}</ul>
 <p class="actions"><a class="btn" href="{SHOP}/urunlerimiz.html?ref=tarif_anasayfa_tumu">Tüm ürünleri gör <span aria-hidden="true">→</span></a></p>
 </div></section>
@@ -462,7 +504,6 @@ def build_redirects():
 <title>Yönlendiriliyorsunuz... | Çimenağa</title>
 <meta http-equiv="refresh" content="0; url={dst}">
 <link rel="canonical" href="{dst}">
-<meta name="robots" content="noindex, follow">
 <script>window.location.replace("{dst}");</script>
 </head>
 <body>
@@ -512,6 +553,8 @@ def build_404(recipes, articles):
 <title>Sayfa Bulunamadı veya Taşındı | Çimenağa Tarifler</title>
 <meta name="robots" content="noindex, follow">
 <meta name="theme-color" content="#14284b">
+<link rel="icon" href="/assets/img/icon.png?v=1">
+<link rel="apple-touch-icon" href="/assets/img/icon.png?v=1">
 <link rel="stylesheet" href="/assets/style.css">
 <script>
 (function() {{
@@ -574,7 +617,7 @@ def build_404(recipes, articles):
 <footer><div class="wrap">
 <div><p><b>Çimenağa Pastırma &amp; Sucuk</b></p>
 <p>1927'den beri Kastamonu</p></div>
-<p class="fnav"><a href="/#tarifler">Tarifler</a> <a href="/#makaleler">Makaleler</a> <a href="/iade-ve-iptal-politikasi.html">İptal ve İade Koşulları</a> <a href="{SHOP}/?ref=404_footer">cimenaga.com</a></p>
+<p class="fnav"><a href="/#tarifler">Tarifler</a> <a href="/#makaleler">Makaleler</a> <a href="/iade-ve-iptal-politikasi.html">İptal ve İade Koşulları</a> <a href="{SHOP}/?ref=404_footer">cimenaga.com</a> <a href="https://www.instagram.com/cimenagapastirma/" rel="me noopener">Instagram</a></p>
 </div></footer>
 </body>
 </html>
@@ -590,17 +633,27 @@ def main():
     recipes, articles = load("tarifler"), load("makaleler")
     rels = ["index.html"]
     mods = {}
+    imgs = {"index.html": "hero.webp"}
     build_index(recipes, articles)
     r_pol = build_return_policy()
     rels.append(r_pol)
     mods[r_pol] = "2026-10-15"
     for d in recipes.values():
         r = build_recipe(d); rels.append(r); mods[r] = d["modified"]
+        if d.get("image"):
+            imgs[r] = d["image"]
     for d in articles.values():
-        r = build_article(d, recipes); rels.append(r); mods[r] = d["modified"]
+        r = build_article(d, recipes, articles); rels.append(r); mods[r] = d["modified"]
+        if d.get("image"):
+            imgs[r] = d["image"]
     mods["index.html"] = max(mods.values())
-    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-          + "".join(f"<url><loc>{url_of(r)}</loc><lastmod>{mods[r]}</lastmod></url>\n" for r in rels) + "</urlset>\n")
+    def sm_img(r):
+        if r not in imgs:
+            return ""
+        return f"<image:image><image:loc>{SITE}/assets/img/{e(imgs[r])}</image:loc></image:image>"
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+          'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
+          + "".join(f"<url><loc>{url_of(r)}</loc><lastmod>{mods[r]}</lastmod>{sm_img(r)}</url>\n" for r in rels) + "</urlset>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\nDisallow: /docs/\nSitemap: {SITE}/sitemap.xml\n")
     build_redirects()
     build_404(recipes, articles)
@@ -681,7 +734,11 @@ def main():
         ]
         for sec in d.get("sections", []):
             full_lines.append(f"#### {sec['h2']}")
-            full_lines += [p for p in sec["paras"]]
+            full_lines += [plain(p) for p in sec["paras"]]
+            if sec.get("table"):
+                full_lines += table_md(sec["table"])
+        if d.get("sources"):
+            full_lines += ["#### Kaynaklar"] + [f"- [{x['name']}]({x['url']})" for x in d["sources"]]
         full_lines.append("")
 
     write("llms-full.txt", "\n".join(full_lines) + "\n")

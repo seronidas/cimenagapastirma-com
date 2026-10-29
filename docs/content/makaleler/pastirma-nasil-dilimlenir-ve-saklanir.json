@@ -5,14 +5,15 @@
   "answer": "Kastamonu pastırması, liflerinin aksi yönünde keskin bir pastırma bıçağıyla ortalama 0,75 mm tül inceliğinde dilimlenir. Açılan pastırma hava almayacak şekilde yağlı kâğıt ve streç filme sarılarak buzdolabının orta raflarında veya kapaklı cam kapta saklanmalıdır.",
   "sections": [
     {
-      "h2": "Pastırma nasıl dilimlenir?",
+      "h2": "Pastırma Nasıl Dilimlenir?",
       "paras": [
-        "Kastamonu pastırmasının en belirgin alametifarikası, 'tül gibi' elde incecik doğranabilmesidir. Pastırma tahtaya yatırılır ve et liflerinin gidiş yönüne dik (liflerin aksi yönünde), keskin bir pastırma bıçağı veya satırıyla hafif kaydırma hareketiyle kesilir.",
-        "İnce dilimleme (yaklaşık 0,75 mm), pastırmanın ağızda yağ gibi erimesini sağlar, çiğnenmesini kolaylaştırır ve Taşköprü sarımsaklı çimenin lezzetini damağa dengeli dağıtır. Kalın dilimlendiğinde etin lezzet dengesi bozulur. Evde dilimlerken bıçağın çok keskin olması ve tek hamlede dilimin çıkarılması en önemli püf noktasıdır."
+        "Kastamonu pastırmasının en belirgin özelliği, 'tül gibi' elde incecik doğranabilmesidir. Pastırma tahtaya yatırılır ve et liflerinin gidiş yönüne dik (liflerin aksi yönünde), keskin bir pastırma bıçağı veya satırıyla hafif kaydırma hareketiyle kesilir.",
+        "İnce dilimleme (yaklaşık 0,75 mm), liflerin ağızda kolayca ayrılmasını sağlar, çiğnenmesini kolaylaştırır ve Taşköprü sarımsaklı çimenin lezzetini damağa dengeli dağıtır. Kalın dilimlendiğinde etin lezzet dengesi bozulur. Evde dilimlerken bıçağın çok keskin olması ve tek hamlede dilimin çıkarılması en önemli püf noktasıdır.",
+        "Dilimin dokusu pastırmanın kalitesi hakkında da ipucu verir; ayrıntılar [İyi Pastırma Nasıl Anlaşılır?](/makaleler/iyi-pastirma-nasil-anlasilir.html) yazımızda."
       ]
     },
     {
-      "h2": "Pastırma buzdolabında nasıl saklanır?",
+      "h2": "Pastırma Buzdolabında Nasıl Saklanır?",
       "paras": [
         "Vakumlu ambalajı açılmamış pastırma, ambalaj üzerindeki tavsiye edilen tarihe kadar buzdolabında, ambalaj üzerindeki saklama koşullarına uygun biçimde saklanır. Vakumu açıldıktan sonra ise etin doğrudan hava ile teması kesilmelidir; çünkü dilimlenmiş pastırma yüzey alanı geniş olduğu için açıkta kaldığında kurur ve rengi koyulaşır.",
         "Açılan pastırmayı önce gıdaya uygun yağlı kâğıda sarıp ardından hava geçirmeyecek biçimde streç filmle kaplamak veya hava sızdırmaz cam bir saklama kabına yerleştirmek tazeliğini korumanın en pratik yoludur.",
@@ -20,16 +21,16 @@
       ]
     },
     {
-      "h2": "Pastırma dondurucuda saklanır mı?",
+      "h2": "Pastırma Dondurucuda Saklanır mı?",
       "paras": [
         "Pastırma tuzlama, Ilgaz esintisinde güneşte kurutma ve çimenleme aşamalarından geçmiş kurutulmuş ve çimenle kaplanmış bir et ürünüdür; saklama koşulları için ambalaj üzerindeki talimata uyun.",
         "Ancak uzun süreli muhafaza için dondurmak isterseniz, tek seferde tüketeceğiniz porsiyonlara ayırıp hava almayacak şekilde dondurabilirsiniz. Tüketmeden önce oda sıcaklığında hızlıca değil, buzdolabı bölmesinde yavaşça çözdürülmesi etin lezzetini ve dokusunu korur."
       ]
     },
     {
-      "h2": "Pastırmanın çimeni (çemen) sıyrılmalı mı?",
+      "h2": "Pastırmanın Çimeni (Çemen) Sıyrılmalı mı?",
       "paras": [
-        "Kastamonu pastırmasının lezzet derinliği, Taşköprü sarımsağı ve baharatlardan oluşan doğal çimen tabakasından gelir. Çimen, aynı zamanda etin kurumasını önleyen doğal bir zırhtır.",
+        "Kastamonu pastırmasının lezzet derinliği, Taşköprü sarımsağı ve baharatlardan oluşan doğal çimen tabakasından gelir. Çimen, aynı zamanda etin kurumasını önleyen doğal bir koruma tabakasıdır.",
         "Hafif lezzet arayanlar dilimlerken dış çimeni kısmen sıyırabilir; ancak geleneksel lezzeti tam hissetmek için pastırmanın ince dilimlenerek çimeniyle birlikte tüketilmesi tavsiye edilir."
       ]
     }
@@ -42,9 +43,13 @@
     "kastamonu-pastirmasi"
   ],
   "published": "2026-10-11",
-  "modified": "2026-10-15",
+  "modified": "2026-10-29",
   "image": "pastirma-nasil-dilimlenir-ve-saklanir.webp",
   "image_alt": "Tahta üzerinde keskin bıçakla ince dilimlenen pastırma (örnek görsel)",
   "image_w": 1200,
-  "image_h": 896
+  "image_h": 896,
+  "related_articles": [
+    "iyi-pastirma-nasil-anlasilir",
+    "pastirma-cig-mi-yenir"
+  ]
 }

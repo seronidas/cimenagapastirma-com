@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://cimenagapastirma.com/</loc><lastmod>2026-10-20</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url><loc>https://cimenagapastirma.com/</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/hero.webp</image:loc></image:image></url>
 <url><loc>https://cimenagapastirma.com/iade-ve-iptal-politikasi.html</loc><lastmod>2026-10-15</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/dibek-kahvesi.html</loc><lastmod>2026-10-20</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/kastamonu-cekme-helvasi.html</loc><lastmod>2026-10-20</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/pastirmali-borek.html</loc><lastmod>2026-10-15</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/pastirmali-kuru-fasulye.html</loc><lastmod>2026-10-11</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/pastirmali-pide.html</loc><lastmod>2026-10-11</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/pastirmali-tost.html</loc><lastmod>2026-10-11</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/pastirmali-yumurta.html</loc><lastmod>2026-10-11</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/siyez-bulgur-pilavi.html</loc><lastmod>2026-10-20</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/sucuklu-patates.html</loc><lastmod>2026-10-11</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/sucuklu-pide.html</loc><lastmod>2026-10-11</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/sucuklu-yumurta.html</loc><lastmod>2026-10-11</lastmod></url>
-<url><loc>https://cimenagapastirma.com/tarifler/visne-receli.html</loc><lastmod>2026-10-20</lastmod></url>
-<url><loc>https://cimenagapastirma.com/makaleler/cemen-ve-taskopru-sarimsagi.html</loc><lastmod>2026-10-15</lastmod></url>
-<url><loc>https://cimenagapastirma.com/makaleler/kastamonu-cografi-isaretli-lezzetleri.html</loc><lastmod>2026-10-20</lastmod></url>
-<url><loc>https://cimenagapastirma.com/makaleler/kastamonu-pastirmasi-nedir.html</loc><lastmod>2026-10-15</lastmod></url>
-<url><loc>https://cimenagapastirma.com/makaleler/pastirma-nasil-dilimlenir-ve-saklanir.html</loc><lastmod>2026-10-15</lastmod></url>
+<url><loc>https://cimenagapastirma.com/tarifler/dibek-kahvesi.html</loc><lastmod>2026-10-20</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/dibek-kahvesi.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/kastamonu-cekme-helvasi.html</loc><lastmod>2026-10-20</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/kastamonu-cekme-helvasi.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/pastirmali-borek.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/pastirmali-borek.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/pastirmali-kuru-fasulye.html</loc><lastmod>2026-10-11</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/pastirmali-kuru-fasulye.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/pastirmali-pide.html</loc><lastmod>2026-10-11</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/pastirmali-pide.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/pastirmali-tost.html</loc><lastmod>2026-10-11</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/pastirmali-tost.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/pastirmali-yumurta.html</loc><lastmod>2026-10-11</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/pastirmali-yumurta.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/siyez-bulgur-pilavi.html</loc><lastmod>2026-10-20</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/siyez-bulgur-pilavi.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/sucuklu-patates.html</loc><lastmod>2026-10-11</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/sucuklu-patates.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/sucuklu-pide.html</loc><lastmod>2026-10-11</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/sucuklu-pide.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/sucuklu-yumurta.html</loc><lastmod>2026-10-11</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/sucuklu-yumurta.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/tarifler/visne-receli.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/visne-receli.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/makaleler/cemen-ve-taskopru-sarimsagi.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/cemen-ve-taskopru-sarimsagi.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/makaleler/fermente-sucuk-nedir.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/sucuk.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/makaleler/iyi-pastirma-nasil-anlasilir.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/pastirma.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/makaleler/kastamonu-cografi-isaretli-lezzetleri.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/kastamonu-cografi-isaretli-lezzetleri.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/makaleler/kastamonu-pastirmasi-nedir.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/kastamonu-pastirmasi-nedir.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/makaleler/kastamonu-ve-kayseri-pastirmasi-farki.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/kastamonu-pastirmasi-nedir.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/makaleler/pastirma-cig-mi-yenir.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/pastirmali-yumurta.webp</image:loc></image:image></url>
+<url><loc>https://cimenagapastirma.com/makaleler/pastirma-nasil-dilimlenir-ve-saklanir.html</loc><lastmod>2026-10-29</lastmod><image:image><image:loc>https://cimenagapastirma.com/assets/img/pastirma-nasil-dilimlenir-ve-saklanir.webp</image:loc></image:image></url>
 </urlset>
